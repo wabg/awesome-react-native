@@ -1,6 +1,6 @@
 # React Native 学习资源精选仓库(汇聚知识，分享精华)
 
-[![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录) [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://github.com/wabg/react-native-awesome) [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native) 
+[![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录) [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://github.com/wabg/react-native-awesome) [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native)
 
 React Native Awesome 汇集了各类react-native学习资料、工具、组件、开源App、资源下载、以及相关新闻等，只求精不求全。
 
@@ -15,24 +15,24 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 	* [React Native](#react-native)
 * [教程](#教程)
 	* [React.js](#reactjs-1)
-	* [React Native](#react-native-1)	
-		* [文档手册](#文档手册)	
-		* [布局相关](#布局相关)	
-		* [开发调试](#开发调试)	
+	* [React Native](#react-native-1)
+		* [文档手册](#文档手册)
+		* [布局相关](#布局相关)
+		* [开发调试](#开发调试)
 		* [发布部署](#发布部署)
 	* [ES6&ES7](#es6es7)
 	* [项目实践&教程](#项目实践教程) 	
 	* [系列教程](#系列教程)
 * [开源APP](#开源app)
 * [组件](#组件)
-	* [UI](#ui) 
-	* [Navigation](#navigation) 
-	* [ViewPager](#viewpager)	
+	* [UI](#ui)
+	* [Navigation](#navigation)
+	* [ViewPager](#viewpager)
 	* [ListView&ScrollView](#listviewscrollview)
 	* [Text&Rich Content](#text-rich-content)
-	* [弹框](#弹框)	
+	* [弹框](#弹框)
 	* [Material Design](#material-design)
-	* [TabLayout](#tablayout)	
+	* [TabLayout](#tablayout)
 * [框架](#框架)
 * [库](#库)
 * [工具](#工具)
@@ -107,7 +107,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 
 
 
-### 系列教程 
+### 系列教程
 
 * [React Native 学习笔记](https://github.com/crazycodeboy/RNStudyNotes)
 * [React Native高手进阶-专栏](http://blog.csdn.net/column/details/react-native-advance.html)
@@ -172,6 +172,9 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 ### ListView&ScrollView   
 
 * [react-native-refreshable-listview](https://github.com/jsdf/react-native-refreshable-listview)：下拉刷新组件。   
+* [react-native-gifted-listview](https://github.com/FaridSafi/react-native-gifted-listview)：下拉刷新和无限滚动加载组件。   
+* [react-native-refresherw](https://github.com/syrusakbary/react-native-refresherw)：下拉刷新组件。   
+* [react-native-drop-refresh](https://github.com/Obooman/RCTRefreshControl)：下拉刷新组件。   
 * [react-native-swipe-list-view](https://github.com/jemise111/react-native-swipe-list-view)：滑动删除组件。
 * [react-native-swipeout](https://github.com/dancormier/react-native-swipeout)：iOS样式的划动删除组件。
 * [react-native-sortable-listview](https://github.com/deanmcpherson/react-native-sortable-listview)：拖拽排序组件。
@@ -243,6 +246,3 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [(深入浅出ES6)ES6-in-depth](https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/(%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAES6)ES6-in-depth.pdf)
 * [JavaScript Promise迷你书(中文版)](https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/(JavaScript%20Promise%E8%BF%B7%E4%BD%A0%E4%B9%A6(%E4%B8%AD%E6%96%87%E7%89%88))javascript-promise-book.pdf)
 * [React Native API 电子书 for mac@UIExplorer](https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/UIExplorer.zip)
-
-
-	

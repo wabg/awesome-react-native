@@ -39,6 +39,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [视频](#视频)
 * [新闻&讨论](#新闻讨论)
 * [一次学习，随处可写](#一次学习随处可写)
+* [一起踩坑](#一起踩坑)
 * [资源下载](#资源下载)
 
 
@@ -240,6 +241,10 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-macos](https://github.com/ptmt/react-native-macos)：使用React Native和Cocoa组建macOS桌面应用。
 * [react-native-web](https://github.com/necolas/react-native-web)：使用React Native组建Web应用。
 
+
+## 一起踩坑
+
+- [解决：next release empty section headers will be rendesred. In this release you can user ‘enableEmptySections’ flag to render empty section headers.](http://youthol.top/2016/08/20/%E8%A7%A3%E5%86%B3%EF%BC%9Anext-release-empty-section-headers-will-be-rendered-in-this-release-you-can-user-enableemptysections-flag-to-render-empty-section-headers/)
 
 ## 资源下载
 

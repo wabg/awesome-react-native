@@ -150,6 +150,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-gitosc](http://git.oschina.net/rplees/react-native-gitosc)：使用React Native重写的OSChina的Git@OSC客户端。
 * [reading](https://github.com/attentiveness/reading)：iReading App。
 * [toutiao](https://github.com/kailuo99/toutiao)：一款基于react-native 的ios android版 资讯头条 APP。
+* [react-native-lagou](https://github.com/heruijun/react-native-lagou)：用react native写的仿拉勾ios版本demo。
 * [RN-ListViewLoadMore](https://github.com/yongqianvip/RN-ListViewLoadMore)：ReactNative基础项目，包含Navigator、TabBar、以及ListView的Refresh和LoadMore
 
 ## 组件  

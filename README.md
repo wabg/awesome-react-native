@@ -2,7 +2,7 @@
 
 [![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录) [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://github.com/wabg/react-native-awesome) [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native)
 
-[《React Native Awesome》](https://github.com/crazycodeboy/react-native-awesome)这里fork过来的，汇集了各类react-native学习资料、工具、组件、开源App、资源下载、以及相关新闻等，只求精不求全。因后面无法 Pull requests 所以增加了居多资源，比如：[一起踩坑](#一起踩坑)、[音视频相机](#音视频相机)、[图形动画](#图形动画)...，比原项目内容更丰富。
+[《React Native Awesome》](https://github.com/crazycodeboy/react-native-awesome)这里fork过来的，汇集了各类react-native学习资料、工具、组件、开源App、资源下载、以及相关新闻等，只求精不求全。因后面无法 Pull requests 所以增加了居多资源，比如：[一起踩坑](#一起踩坑)、[音视频相机](#音视频相机)、[图形动画](#图形动画)...，比原项目内容更丰富🔥。
 
 
 ## 目录
@@ -30,7 +30,11 @@
 	* [弹框](#弹框)
 	* [音视频相机](#音视频相机)
 	* [图形动画](#图形动画)
+	* [数据存储](#数据存储)
+	* [Web相关](#web相关)
+	* [系统相关](#系统相关)
 	* [Material Design](#material-design)
+	* [工具包](#工具包)
 	* [TabLayout](#tablayout)
 * [框架](#框架)
 * [库](#库)
@@ -81,6 +85,7 @@
 * [React速学教程(下)](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
 * [React入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
 * [React入门实例教程-阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
+* [react组件间通信](http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/)
 
 ### React Native
 
@@ -117,6 +122,10 @@
 * [React Native 每日一学(Learn a little every day)](https://github.com/crazycodeboy/RNStudyNotes/tree/master/React%20Native%20%E6%AF%8F%E6%97%A5%E4%B8%80%E5%AD%A6)
 * [React-Native-lesson](https://github.com/vczero/react-native-lesson)
 * [React Native 学习笔记](https://github.com/Kennytian/learning-react-native)
+* [React Native 之 JSBridge](http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/)
+* [ReactNative iOS源码解析（一）](http://awhisper.github.io/2016/06/24/ReactNative%E6%B5%81%E7%A8%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/ )
+* [ReactNative iOS源码解析（二）](http://awhisper.github.io/2016/07/02/ReactNative%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%902/)
+
 
 ### 项目实践&教程   
 
@@ -154,39 +163,69 @@
 
 ### UI
 
-- [react-native-vector-icons ★2281](https://github.com/oblador/react-native-vector-icons)：用于 React Native的可定制的图标资源库，支持 NavBar/TabBar, image source 以及样式。
+* [React-Native-Elements](https://github.com/react-native-community/React-Native-Elements) 一组开发RN的UI工具包（强烈推荐）
+* [react-native-action-button](https://github.com/APSL/react-native-button) 支持多种点击事件的Button控件
+* [react-native-activity-view](https://github.com/naoufal/react-native-activity-view) iOS上的分享和action sheets组件
+* [react-native-app-intro](https://github.com/FuYaoDe/react-native-app-intro) 引导页
+* [react-native-blur](https://github.com/react-native-fellowship/react-native-blur)  添加模糊或者毛玻璃效果
+* [react-native-calendar](https://github.com/christopherdro/react-native-calendar) 日历
+* [react-native-collapsible](https://github.com/oblador/react-native-collapsible) 可折叠的component
+* [React Native Drawer](https://github.com/root-two/react-native-drawer) 抽屉效果，可 用来实现侧拉菜单
+* [react-native-dropdown](https://github.com/alinz/react-native-dropdown)下拉菜单
+* [ReactNativeEffectsView](https://github.com/voronianski/react-native-effects-view) 封装了iOS 8上的UIVisualEffectViews，在React Native中实现毛玻璃效果
+* [react-native-gesture-password](https://github.com/spikef/react-native-gesture-password) 手势解锁，支持iOS和Android
+* [react-native-gifted-form](https://github.com/FaridSafi/react-native-gifted-form) 在React Native中方便的使用表格
+* [react-native-gifted-messenger](https://github.com/FaridSafi/react-native-gifted-messenger) 方便的实现聊天UI
+* [react-native-grid-view](https://github.com/lucholaf/react-native-grid-view) 网格视图，类似iOS中的UICollectionView
+* [react-native-keyboard-spacer](https://github.com/Andr3wHur5t/react-native-keyboard-spacer) 适用于iOS的根据键盘自动调整输入框
+* [react-native-keyboardevents](https://github.com/johanneslumpe/react-native-keyboardevents) 监听键盘显示/隐藏
+* [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) 地图
+* [react-native-maps](https://github.com/lelandrichardson/react-native-maps) 地图
+* [react-native-material-kit](https://github.com/xinthink/react-native-material-kit) 一组UI Components，为了介绍  [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
+* [react-native-modalbox](https://github.com/maxs15/react-native-modalbox) 用于模态显示的Component
+* [react-native-orientation](https://github.com/yamill/react-native-orientation) 监听设备旋转
+* [react-native-parallax](https://github.com/oblador/react-native-parallax) parallax效果
+* [react-native-picker](https://github.com/beefe/react-native-picker) 选择器，可用于实现时间选择，区域选择
+* [react-native-progress-hud](https://github.com/naoufal/react-native-progress-hud) ProgressHUD
+* [react-native-controllers](https://github.com/wix/react-native-controllers) 封装了 原生的iOS 导航栏，tabbar，抽屉效果等。
+* [react-native-search-bar](https://github.com/umhan35/react-native-search-bar) 封装iOS原生UISearchBar
+* [react-native-spinkit](https://github.com/maxs15/react-native-spinkit) 一组Activity指示器
+* [react-native-splashscreen](https://github.com/remobile/react-native-splashscreen) App载入视图，启动后自动隐藏
+* [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) 3000+支持自定义的图标  
+* [react-native-invertible-scroll-view](https://github.com/exponentjs/react-native-invertible-scroll-view) 逆向的ScrollView，从底部开始布局，适用于聊天等向上滑动来加载更多的情况
+* [react-native-loading-spinner-overlay](https://github.com/niftylettuce/react-native-loading-spinner-overlay) 加载中的提示spinner ,支持iOS/Android
 
 ### Navigation  
 
-* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux)：一款很火的导航组件。
-* [react-native-navbar](https://github.com/react-native-community/react-native-navbar)：一款用于React Native上的可定制的导航条。
-* [react-native-tab-navigator](https://github.com/exponentjs/react-native-tab-navigator)：一款兼容Android、iOS的TabBar组件。
-* [react-native-drawer-layout](https://github.com/iodine/react-native-drawer-layout)：抽屉组件。
-* [react-native-drawer](https://github.com/root-two/react-native-drawer)：另一款抽屉组件。
-
-
+* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) 一款很火的导航组件。
+* [react-native-navbar](https://github.com/react-native-community/react-native-navbar) 一款用于React Native上的可定制的导航条。
+* [react-native-tab-navigator](https://github.com/exponentjs/react-native-tab-navigator) 一款兼容Android、iOS的TabBar组件。
+* [react-native-drawer-layout](https://github.com/iodine/react-native-drawer-layout) 抽屉组件。
+* [react-native-drawer](https://github.com/root-two/react-native-drawer) 另一款抽屉组件。
+* [ex-navigator](https://github.com/exponentjs/ex-navigator) 封装Navigator,以Route为中心的Navigator
 
 ### ViewPager
 
-* [react-native-swiper](https://github.com/leecade/react-native-swiper)：一款轮番滑动的组件。
-* [react-native-looped-carousel](https://github.com/appintheair/react-native-looped-carousel)：滚动轮播组件。
+* [react-native-swiper](https://github.com/leecade/react-native-swiper) 一款轮番滑动的组件。
+* [react-native-looped-carousel](https://github.com/appintheair/react-native-looped-carousel) 滚动轮播组件。
 
 
 ### ListView&ScrollView   
 
-* [react-native-refreshable-listview](https://github.com/jsdf/react-native-refreshable-listview)：下拉刷新组件。   
-* [react-native-gifted-listview](https://github.com/FaridSafi/react-native-gifted-listview)：下拉刷新和无限滚动加载组件。   
-* [react-native-refresherw](https://github.com/syrusakbary/react-native-refresherw)：下拉刷新组件。   
-* [react-native-drop-refresh](https://github.com/Obooman/RCTRefreshControl)：下拉刷新组件。   
-* [react-native-smart-pull-to-refresh-listview](https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview)：下拉刷新组件。   
-* [react-native-pull](https://github.com/greatbsky/react-native-pull)：下拉刷新组件。   
-* [react-native-swipe-list-view](https://github.com/jemise111/react-native-swipe-list-view)：滑动删除组件。
-* [react-native-swipeout](https://github.com/dancormier/react-native-swipeout)：iOS样式的划动删除组件。
-* [react-native-sortable-listview](https://github.com/deanmcpherson/react-native-sortable-listview)：拖拽排序组件。
-* [react-native-draggablelist](https://github.com/hzzcc/react-native-draggablelist)：拖排序组件。
-* [react-native-SortableList](https://github.com/hayeah/react-native-SortableList)：拖拽排序组件。
-* [react-native-sglistview](https://github.com/sghiassy/react-native-sglistview) 性能优化的listview
+* [react-native-refreshable-listview](https://github.com/jsdf/react-native-refreshable-listview) 下拉刷新组件。      
+* [react-native-refresherw](https://github.com/syrusakbary/react-native-refresherw) 下拉刷新组件。   
+* [react-native-drop-refresh](https://github.com/Obooman/RCTRefreshControl) 下拉刷新组件。   
+* [react-native-refresher](https://github.com/syrusakbary/react-native-refresher) 支持下拉刷新的listview
+* [react-native-gifted-listview](https://github.com/FaridSafi/react-native-gifted-listview) 下拉刷新和上拉加载的ListView
+* [react-native-smart-pull-to-refresh-listview](https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview) 下拉刷新组件。   
+* [react-native-pull](https://github.com/greatbsky/react-native-pull) 下拉刷新组件。   
+* [react-native-swipe-list-view](https://github.com/jemise111/react-native-swipe-list-view) 滑动删除组件。
+* [react-native-swipeout](https://github.com/dancormier/react-native-swipeout) iOS样式的划动删除组件。
+* [react-native-sortable-listview](https://github.com/deanmcpherson/react-native-sortable-listview) 拖拽排序组件。
+* [react-native-draggablelist](https://github.com/hzzcc/react-native-draggablelist) 拖排序组件。
+* [react-native-SortableList](https://github.com/hayeah/react-native-SortableList) 拖拽排序组件。
 * [react-native-tableview](https://github.com/aksonov/react-native-tableview) 桥接了原生的UITableView
+* [react-native-sglistview](https://github.com/sghiassy/react-native-sglistview) 为了解决React Native中ListView的内存问题
 
 
 ### Text&Rich Content  
@@ -204,21 +243,64 @@
 * [react-native-barcodescanner](https://github.com/ideacreation/react-native-barcodescanner) 二维码扫描组件
 * [react-native-camera](https://github.com/lwansbrough/react-native-camera) 相机组件
 * [react-native-image-picker](https://github.com/marcshilling/react-native-image-picker) 可以从相机或者相册选择图片  
+* [react-native-video](https://github.com/brentvatne/react-native-video) 视频组建
+* [react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) 图片选择器，支持对图片进行切割
 
 ### 图形动画
 
 * [react-native-button](https://github.com/ide/react-native-button) 按钮，因为react-native没有提供button
 * [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view) 滑动的tab视图
+* [react-native-animatable](https://github.com/oblador/react-native-animatable) 封装了很多动画，强烈推荐
+* [react-native-lightbox](https://github.com/oblador/react-native-lightbox) 图片全屏预览
+* [react-native-looped-carousel](https://github.com/appintheair/react-native-looped-carousel) 视图轮播
+* [react-native-svgkit](https://github.com/brentvatne/react-native-svgkit) 显示SVG格式图片
+* [react-native-chart](https://github.com/tomauty/react-native-chart) 绘图（折线图，柱状图，扇形图）
+* [react-native-circular-progress](https://github.com/bgryszko/react-native-circular-progress) 圆形的显示进度的视图
+* [gl-react-native](https://github.com/ProjectSeptemberInc/gl-react-native) React Native中使用OPENGL来实现复杂的图片和components渲染
+* [react-native-viewpager](https://github.com/race604/react-native-viewpager) 视图轮播，支持循环滚动，自定义视图。已做性能优化
+
+### 数据存储
+
+* [react-native-sqlite-storage](https://github.com/andpor/react-native-sqlite-storage) iOS／Android上的Sqlite3封装
+* [react-native-store](https://github.com/thewei/react-native-store) 封装了react-native AsyncStorage
+* [realm-js](https://github.com/realm/realm-js) 用JS来调用Realm
+
+### Web相关
+
+* [react-native-safari-view](https://github.com/naoufal/react-native-safari-view) 封装iOS中的 [Safari View Controller](https://developer.apple.com/videos/wwdc/2015/?id=504)  
+* [react-native-webview-android](https://github.com/lucasferreira/react-native-webview-android) 封装了Android中的Webview
+* [react-native-webrtc](https://github.com/oney/react-native-webrtc) A WebRTC module for React Native.
+
+
+### 系统相关
+
+* [react-native-device-info](https://github.com/rebeccahughes/react-native-device-info) 获取设备信息
+* [react-native-barcodescanner](https://github.com/ideacreation/react-native-barcodescanner) 扫码
+* [react-native-contacts](https://github.com/rt2zz/react-native-contacts) 访问通讯录
+* [react-native-fs](https://github.com/johanneslumpe/react-native-fs) 访问本地文件系统
+* [react-native-push-notification](https://github.com/zo0r/react-native-push-notification) 本地和远程通知
+* [react-native-touch-id](https://github.com/naoufal/react-native-touch-id) 调用TouchID认证
 
 ### Material Design
+
 * [mrn](https://github.com/binggg/mrn)：Material Design组件库。
 * [react-native-material-design](https://github.com/react-native-material-design/react-native-material-design)：一款用于React Native上的材料设计UI组件库。
 
 
+### 工具包
+
+- [react-native-mock](https://github.com/lelandrichardson/react-native-mock) 一个为ReactNative提供的测试框架
+- [react-native-google-analytics](https://github.com/lwansbrough/react-native-google-analytics)  google统计分析
+- [react-native-fabric](https://github.com/corymsmith/react-native-fabric) 统计分析，崩溃分析等
+- [react-native-wechat](https://github.com/weflex/react-native-wechat) 调用微信相关，比如分享，登录，支付
+- [reactotron](https://github.com/skellock/reactotron) 在终端检测React Dom和Reactive App
+- [react-native-windows](https://github.com/ReactWindows/react-native-windows) Windows平台的RN工具
+- [react-native-webpack-server](https://github.com/mjohnston/react-native-webpack-server) 用Webpack来编译React Native App
+
 ### TabLayout   
 
-
-* [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view)：一款用于React Native上TabLayout组件。
+* [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view) 一款用于React Native上TabLayout组件。
+* [react-native-tab-navigator](https://github.com/exponentjs/react-native-tab-navigator) TabBar切换视图
 
 
 ## 框架

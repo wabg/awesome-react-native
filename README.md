@@ -31,6 +31,8 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 	* [ListView&ScrollView](#listviewscrollview)
 	* [Text&Rich Content](#text-rich-content)
 	* [弹框](#弹框)
+	* [音视频相机](#音视频相机)
+	* [图形动画](#图形动画)
 	* [Material Design](#material-design)
 	* [TabLayout](#tablayout)
 * [框架](#框架)
@@ -45,11 +47,24 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 
 ## 资源网站
 
+### ES6&ES7
+
+* [ES6的新特性，以及ES6与ES5的区别](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
+* [深入浅出ES6（十三）：类 Class](http://www.infoq.com/cn/articles/es6-in-depth-classes/)
+* [ES6新特性：使用export和import实现模块化](http://www.cnblogs.com/diligenceday/p/5503777.html)
+* [ES6令人激动的特性](http://www.infoq.com/cn/news/2015/07/JavaScript-Promises-Generator?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+* [ES6 学习笔记](https://segmentfault.com/a/1190000002904199)
+* [React on ES6+](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
+* [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
+* [深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
+
+
 ### React.js
 
 * [React官网](https://facebook.github.io/react/)
 * [React中文网](http://reactjs.cn/)
 * [React-China社区](http://react-china.org/)
+* [组件的详细说明和生命周期（Component Specs and Lifecycle）](http://reactjs.cn/react/docs/component-specs.html)
 
 ### React Native
 
@@ -68,6 +83,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [React速学教程(中)](http://blog.csdn.net/fengyuzhengfan/article/details/52201554)
 * [React速学教程(下)](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
 * [React入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
+* [React入门实例教程-阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
 
 ### React Native
 
@@ -77,7 +93,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [React Native布局篇](https://segmentfault.com/a/1190000002658374)
 * [Flex 布局语法教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 * [React Native探索（二）：布局篇](http://www.infoq.com/cn/articles/react-native-layout)
-
+* [构建 F8 App / React Native 开发指南](http://f8-app.liaohuqiu.net/)
 
 #### 开发调试    
 
@@ -93,20 +109,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [React Native: Android 的打包](http://www.liaohuqiu.net/cn/posts/react-native-android-package/)
 * [ReactNative之原生模块开发并发布——iOS篇](http://www.liuchungui.com/blog/2016/05/02/reactnativezhi-yuan-sheng-mo-kuai-kai-fa-bing-fa-bu-iospian/)
 * [ReactNative之原生模块开发并发布——android篇](http://www.liuchungui.com/blog/2016/05/08/reactnativezhi-yuan-sheng-mo-kuai-kai-fa-bing-fa-bu-androidpian/)
-
-
-
-### ES6&ES7
-
-* [ES6的新特性，以及ES6与ES5的区别](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
-* [深入浅出ES6（十三）：类 Class](http://www.infoq.com/cn/articles/es6-in-depth-classes/)
-* [ES6新特性：使用export和import实现模块化](http://www.cnblogs.com/diligenceday/p/5503777.html)
-* [ES6令人激动的特性](http://www.infoq.com/cn/news/2015/07/JavaScript-Promises-Generator?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
-* [ES6 学习笔记](https://segmentfault.com/a/1190000002904199)
-* [React on ES6+](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
-* [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
-* [深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
-
+* [React Native for Android 入门老虎](http://www.race604.com/react-native-for-android-start/)
 
 
 ### 系列教程
@@ -115,8 +118,8 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [React Native高手进阶-专栏](http://blog.csdn.net/column/details/react-native-advance.html)
 * [React Native高手进阶-专题](http://www.jianshu.com/collection/b6da4107b30d)
 * [React Native 每日一学(Learn a little every day)](https://github.com/crazycodeboy/RNStudyNotes/tree/master/React%20Native%20%E6%AF%8F%E6%97%A5%E4%B8%80%E5%AD%A6)
-
-
+* [React-Native-lesson](https://github.com/vczero/react-native-lesson)
+* [React Native 学习笔记](https://github.com/Kennytian/learning-react-native)
 
 ### 项目实践&教程   
 
@@ -146,6 +149,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-nba-app](https://github.com/wwayne/react-native-nba-app)：This is why we play。
 * [react-native-gitosc](http://git.oschina.net/rplees/react-native-gitosc)：使用React Native重写的OSChina的Git@OSC客户端。
 * [reading](https://github.com/attentiveness/reading)：iReading App。
+* [toutiao](https://github.com/kailuo99/toutiao)：一款基于react-native 的ios android版 资讯头条 APP。
 * [RN-ListViewLoadMore](https://github.com/yongqianvip/RN-ListViewLoadMore)：ReactNative基础项目，包含Navigator、TabBar、以及ListView的Refresh和LoadMore
 
 ## 组件  
@@ -183,6 +187,8 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-sortable-listview](https://github.com/deanmcpherson/react-native-sortable-listview)：拖拽排序组件。
 * [react-native-draggablelist](https://github.com/hzzcc/react-native-draggablelist)：拖排序组件。
 * [react-native-SortableList](https://github.com/hayeah/react-native-SortableList)：拖拽排序组件。
+* [react-native-sglistview](https://github.com/sghiassy/react-native-sglistview) 性能优化的listview
+* [react-native-tableview](https://github.com/aksonov/react-native-tableview) 桥接了原生的UITableView
 
 
 ### Text&Rich Content  
@@ -195,6 +201,16 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-modal](https://github.com/brentvatne/react-native-modal)：模态框，作者已经将该组件添加到React Native，所以开发者可以直接使用[Modal](https://facebook.github.io/react-native/releases/0.31/docs/modal.html);  
 * [react-native-popover](https://github.com/jeanregisser/react-native-popover)：一款类似Android popupwindow的弹出框组件。
 
+### 音视频相机
+
+* [react-native-barcodescanner](https://github.com/ideacreation/react-native-barcodescanner) 二维码扫描组件
+* [react-native-camera](https://github.com/lwansbrough/react-native-camera) 相机组件
+* [react-native-image-picker](https://github.com/marcshilling/react-native-image-picker) 可以从相机或者相册选择图片  
+
+### 图形动画
+
+* [react-native-button](https://github.com/ide/react-native-button) 按钮，因为react-native没有提供button
+* [react-native-scrollable-tab-view](https://github.com/skv-headless/react-native-scrollable-tab-view) 滑动的tab视图
 
 ### Material Design
 * [mrn](https://github.com/binggg/mrn)：Material Design组件库。
@@ -226,6 +242,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [WebStorm](https://www.jetbrains.com/webstorm/)：JetBrains公司出品的用于前端开发的IDE，WebStorm有着JetBrains公司IDE的优良血统，是前端工程师的一个开发神器。另外，AndroidStudio也是基于JetBrains的IDE，这对于习惯了AndroidStudio的开发者来说，WebStorm无疑是一个最佳的选择。
 
 ### 其他  
+
 * [CodePush](https://microsoft.github.io/code-push/)：CodePush 是微软提供的一套用于热更新 React Native 和 Cordova 应用的服务。
 * [Redux](https://github.com/reactjs/redux/)：用于JavaScript apps上的一款可预见的状态管理框架。
 
@@ -240,6 +257,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 
 
 ## 一次学习，随处可写  
+
 * [react-native-macos](https://github.com/ptmt/react-native-macos)：使用React Native和Cocoa组建macOS桌面应用。
 * [react-native-web](https://github.com/necolas/react-native-web)：使用React Native组建Web应用。
 

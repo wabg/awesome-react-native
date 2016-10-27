@@ -247,6 +247,11 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 ## 一起踩坑
 
 - [解决：next release empty section headers will be rendesred. In this release you can user ‘enableEmptySections’ flag to render empty section headers.](http://youthol.top/2016/08/20/%E8%A7%A3%E5%86%B3%EF%BC%9Anext-release-empty-section-headers-will-be-rendered-in-this-release-you-can-user-enableemptysections-flag-to-render-empty-section-headers/)
+- [error: no devices/emulators found](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#1-error-no-devicesemulators-found)
+- [react-native run-android时出现Could not download imagepipeline.aar](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#2-react-native-run-android时出现could-not-download-imagepipelineaar)
+- [Undefined symbols for architecture x86_64: “std::terminate()”](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#3-undefined-symbols-for-architecture-x86_64-stdterminate)
+- [error: unable to find utility "instruments", not a developer tool or in PATH](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#5-error-unable-to-find-utility-instruments-not-a-developer-tool-or-in-path)
+- [Property 'force' not found on object of type 'UITouch'](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#6-property-force-not-found-on-object-of-type-uitouch)
 
 ## 资源下载
 

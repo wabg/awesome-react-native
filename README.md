@@ -85,6 +85,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 
 #### 发布部署   
 
+* [React-native Android环境搭建](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 * [React Native应用部署/热更新-CodePush最新集成总结](http://blog.csdn.net/fengyuzhengfan/article/details/52003798)
 * [React Native发布APP之签名打包APK](http://blog.csdn.net/fengyuzhengfan/article/details/51958848)
 * [ReactNative增量升级方案](http://bbs.reactnative.cn/topic/276/reactnative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88)
@@ -174,6 +175,7 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 * [react-native-gifted-listview](https://github.com/FaridSafi/react-native-gifted-listview)：下拉刷新和无限滚动加载组件。   
 * [react-native-refresherw](https://github.com/syrusakbary/react-native-refresherw)：下拉刷新组件。   
 * [react-native-drop-refresh](https://github.com/Obooman/RCTRefreshControl)：下拉刷新组件。   
+* [react-native-smart-pull-to-refresh-listview](https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview)：下拉刷新组件。   
 * [react-native-pull](https://github.com/greatbsky/react-native-pull)：下拉刷新组件。   
 * [react-native-swipe-list-view](https://github.com/jemise111/react-native-swipe-list-view)：滑动删除组件。
 * [react-native-swipeout](https://github.com/dancormier/react-native-swipeout)：iOS样式的划动删除组件。

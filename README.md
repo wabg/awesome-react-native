@@ -2,10 +2,7 @@
 
 [![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录) [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://github.com/wabg/react-native-awesome) [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native)
 
-React Native Awesome 汇集了各类react-native学习资料、工具、组件、开源App、资源下载、以及相关新闻等，只求精不求全。
-
->如果你是一名React Native爱好者，或者有一颗热爱钻研新技术的心，喜欢分享技术干货、项目经验、以及你在React Naive学习研究或实践中的一些经验心得等等，欢迎投稿[《React Native Awesome》](https://github.com/crazycodeboy/react-native-awesome)。
-如果你是一名Android、iOS、或前端开发人员，有者一颗积极进取的心，欢迎关注[《React Native Awesome》](https://github.com/crazycodeboy/react-native-awesome)。本项目汇集了各类React Native学习资料、工具、组件、开源App、以及相关新闻等。    
+[《React Native Awesome》](https://github.com/crazycodeboy/react-native-awesome)这里fork过来的，汇集了各类react-native学习资料、工具、组件、开源App、资源下载、以及相关新闻等，只求精不求全。因后面无法 Pull requests 所以增加了居多资源，比如：[一起踩坑](#一起踩坑)、[音视频相机](#音视频相机)、[图形动画](#图形动画)...，比原项目内容更丰富。
 
 
 ## 目录

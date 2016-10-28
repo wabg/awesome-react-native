@@ -245,6 +245,8 @@ React Native Awesome 汇集了各类react-native学习资料、工具、组件�
 ## 一起踩坑
 
 - [解决：next release empty section headers will be rendesred. In this release you can user ‘enableEmptySections’ flag to render empty section headers.](http://youthol.top/2016/08/20/%E8%A7%A3%E5%86%B3%EF%BC%9Anext-release-empty-section-headers-will-be-rendered-in-this-release-you-can-user-enableemptysections-flag-to-render-empty-section-headers/)
+- 应用反应缓慢，出现卡顿：  
+ * 查看是否console日志打印过度造成
 
 ## 资源下载
 

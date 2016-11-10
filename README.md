@@ -353,6 +353,7 @@
 - [Property 'force' not found on object of type 'UITouch'](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#6-property-force-not-found-on-object-of-type-uitouch)
 - 应用反应缓慢，出现卡顿：  
  * 查看是否console日志打印过度造成
+ * React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
 
 ## 资源下载
 

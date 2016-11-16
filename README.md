@@ -160,6 +160,7 @@
 * [react-native-lagou](https://github.com/heruijun/react-native-lagou)：用react native写的仿拉勾ios版本demo。
 * [RN-ListViewLoadMore](https://github.com/yongqianvip/RN-ListViewLoadMore)：ReactNative基础项目，包含Navigator、TabBar、以及ListView的Refresh和LoadMore
 * [react-native-BabyHealth-](https://github.com/liuhongjun719/react-native-BabyHealth-)：仿 “宝宝健康” app，实现Listview展示、收藏、跳到appstore、react-redux与redux-thunk的使用
+* [react-native接入android原生模块](https://github.com/Xing-He/react-native-android-toast) : react-native接入android原生模块
 
 ## 组件  
 

@@ -96,6 +96,7 @@
 * [Flex 布局语法教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 * [React Native探索（二）：布局篇](http://www.infoq.com/cn/articles/react-native-layout)
 * [构建 F8 App / React Native 开发指南](http://f8-app.liaohuqiu.net/)
+* [在react-native中使用redux](http://www.jianshu.com/p/2c43860b0532)
 
 #### 开发调试    
 

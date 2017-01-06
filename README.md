@@ -358,7 +358,8 @@
 - 应用反应缓慢，出现卡顿：  
  * 查看是否console日志打印过度造成
  * React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
-- [小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session](http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native)
+- [小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session](http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native)  
+- [*.h file-not-found](http://stackoverflow.com/questions/5198905/h-file-not-found)
 
 ## 资源下载
 

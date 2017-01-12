@@ -360,6 +360,35 @@
  * React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
 - [小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session](http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native)  
 - [*.h file-not-found](http://stackoverflow.com/questions/5198905/h-file-not-found)
+- [修改安卓app在手机上展示的名称](http://www.nowamagic.net/librarys/topics/detail/444)
+```
+<resources>
+    <string name="app_name">Your_app_name_to_display</string>
+</resources>
+```
+- [修改安卓打包时apk的名字：如 `wabg.apk`](https://segmentfault.com/a/1190000002910311)
+```
+android{
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                File outputDirectory = new File(outputFile.parent);
+                def fileName
+		 // 你的apk打包名称
+                if (variant.buildType.name == "release") {
+                    fileName =  "app_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                } else {
+                    fileName = "app_v${defaultConfig.versionName}_${packageTime()}_debug.apk"
+                }
+                output.outputFile = new File(outputDirectory, fileName)
+            }
+        }
+    }
+
+}
+```
+
 
 ## 资源下载
 

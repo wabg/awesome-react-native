@@ -164,7 +164,8 @@
 * [react-native-lagou](https://github.com/heruijun/react-native-lagou)：用react native写的仿拉勾ios版本demo。
 * [RN-ListViewLoadMore](https://github.com/yongqianvip/RN-ListViewLoadMore)：ReactNative基础项目，包含Navigator、TabBar、以及ListView的Refresh和LoadMore
 * [react-native-BabyHealth-](https://github.com/liuhongjun719/react-native-BabyHealth-)：仿 “宝宝健康” app，实现Listview展示、收藏、跳到appstore、react-redux与redux-thunk的使用
-* [react-native接入android原生模块](https://github.com/Xing-He/react-native-android-toast) : react-native接入android原生模块
+* [react-native接入ios/android原生模块](https://github.com/Xing-He/react-native-nativeModule) : react-native接入ios/android原生模块例子
+* [react-native图片上传实例](https://github.com/Xing-He/imagePicker)  
 
 ## 组件  
 
@@ -360,6 +361,37 @@
 - 应用反应缓慢，出现卡顿：  
  * 查看是否console日志打印过度造成
  * React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
+- [小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session](http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native)  
+- [*.h file-not-found](http://stackoverflow.com/questions/5198905/h-file-not-found)
+- [修改安卓app在手机上展示的名称](http://www.nowamagic.net/librarys/topics/detail/444)
+```
+<resources>
+    <string name="app_name">Your_app_name_to_display</string>
+</resources>
+```
+- [修改安卓打包时apk的名字：如 `wabg.apk`](https://segmentfault.com/a/1190000002910311)
+```
+android{
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                File outputDirectory = new File(outputFile.parent);
+                def fileName
+		 // 你的apk打包名称
+                if (variant.buildType.name == "release") {
+                    fileName =  "app_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                } else {
+                    fileName = "app_v${defaultConfig.versionName}_${packageTime()}_debug.apk"
+                }
+                output.outputFile = new File(outputDirectory, fileName)
+            }
+        }
+    }
+
+}
+```
+
 
 ## 资源下载
 

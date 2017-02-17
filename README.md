@@ -58,12 +58,14 @@
 * [React on ES6+](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
 * [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
 * [深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
+* [阮一峰ES6 文档](http://es6.ruanyifeng.com/#docs/intro)
 
 
 ### React.js
 
 * [React官网](https://facebook.github.io/react/)
 * [React中文网](http://reactjs.cn/)
+* [React Router中文文档](https://react-guide.github.io/react-router-cn/)
 * [React-China社区](http://react-china.org/)
 * [组件的详细说明和生命周期（Component Specs and Lifecycle）](http://reactjs.cn/react/docs/component-specs.html)
 
@@ -85,7 +87,8 @@
 * [React速学教程(下)](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
 * [React入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
 * [React入门实例教程-阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
-* [react组件间通信](http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/)
+* [React组件间通信](http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/)
+* [React数据流管理架构之 Redux 介绍](http://www.alloyteam.com/2015/09/react-redux/)
 
 ### React Native
 

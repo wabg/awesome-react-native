@@ -359,6 +359,7 @@
 - [Undefined symbols for architecture x86_64: “std::terminate()”](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#3-undefined-symbols-for-architecture-x86_64-stdterminate)
 - [方法一：animated `useNativeDriver` is not supported because the native animated module is missing](http://blog.csdn.net/it_talk/article/details/53787033)
 - [方法二：animated `useNativeDriver` is not supported because the native animated module is missing](http://www.psd1403.com/usenativedriver-is-not-supported-because-the-native-animated-module-is-missing/)
+- 最终都需要将`libRCTAnimation.a` 文件导入 [react-native issues #11094](https://github.com/facebook/react-native/issues/11094)
 - [error: unable to find utility "instruments", not a developer tool or in PATH](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#5-error-unable-to-find-utility-instruments-not-a-developer-tool-or-in-path)
 - [Property 'force' not found on object of type 'UITouch'](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#6-property-force-not-found-on-object-of-type-uitouch)
 - 应用反应缓慢，出现卡顿：  

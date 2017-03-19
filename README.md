@@ -334,10 +334,13 @@
 
 * [CodePush](https://microsoft.github.io/code-push/)：CodePush 是微软提供的一套用于热更新 React Native 和 Cordova 应用的服务。
 * [Redux](https://github.com/reactjs/redux/)：用于JavaScript apps上的一款可预见的状态管理框架。
+* [redux-react-native-i18n](https://github.com/derzunov/redux-react-native-i18n) An i18n solution with plural forms support for React Native apps on Redux
 
 
 ## 视频   
 
+* [React Native项目实战视频](http://coding.imooc.com/class/89.html)
+* [React Native免费自学视频](http://www.imooc.com/note/808?sort=last&page=1)
 * [React.js Conf 2016](https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY)
 
 ## 新闻&讨论

@@ -100,10 +100,10 @@
 * [React Native探索（二）：布局篇](http://www.infoq.com/cn/articles/react-native-layout)
 * [构建 F8 App / React Native 开发指南](http://f8-app.liaohuqiu.net/)
 
-#### 开发调试    
+#### 开发调试
 
 * [React Native调试技巧与心得](http://blog.csdn.net/fengyuzhengfan/article/details/52106496)
-
+* [教你轻松修改React Native端口(如何同时运行多个React Native、8081端口占用问题)](http://www.devio.org/2017/08/18/Modify-the-React-Native-listening-port/)![ new](http://www.devio.org/img/ico/ico_new.gif)
 
 #### 发布部署   
 

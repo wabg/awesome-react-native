@@ -203,6 +203,7 @@
 * [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) 3000+支持自定义的图标  
 * [react-native-invertible-scroll-view](https://github.com/exponentjs/react-native-invertible-scroll-view) 逆向的ScrollView，从底部开始布局，适用于聊天等向上滑动来加载更多的情况
 * [react-native-loading-spinner-overlay](https://github.com/niftylettuce/react-native-loading-spinner-overlay) 加载中的提示spinner ,支持iOS/Android
+* [react-native-tabs](https://github.com/aksonov/react-native-tabs) 选项卡可用于底部标签栏以及分段视图
 
 ### Navigation  
 
@@ -294,7 +295,6 @@
 
 * [mrn](https://github.com/binggg/mrn)：Material Design组件库。
 * [react-native-material-design](https://github.com/react-native-material-design/react-native-material-design)：一款用于React Native上的材料设计UI组件库。
-
 
 ### 工具包
 

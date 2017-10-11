@@ -187,6 +187,7 @@
 
 * [react-native-launch-image](https://github.com/reactnativecn/react-native-launch-image)：用在React Native上手动关闭iOS启动界面（Launch Screen）的工具。[详细说明](http://reactnative.cn/post/2199)  
 * [RNShareSDK](https://github.com/kengsir/RNShareSDK)：一款基于原生平台ShareSDK的ReactNative插件,方便RN开发者集成各大社交平台的分享和授权功能。
+* [react-native-social-kit](https://github.com/yoaicom/react-native-social-kit)：对第三方社交账号SDK的封装，使开发者能在React Native App里使用授权、分享等功能。
 
 
 ## 组件  
@@ -289,6 +290,7 @@
 * [react-native-circular-progress](https://github.com/bgryszko/react-native-circular-progress) 圆形的显示进度的视图
 * [gl-react-native](https://github.com/ProjectSeptemberInc/gl-react-native) React Native中使用OPENGL来实现复杂的图片和components渲染
 * [react-native-viewpager](https://github.com/race604/react-native-viewpager) 视图轮播，支持循环滚动，自定义视图。已做性能优化
+* [react-native-gallery](https://github.com/ldn0x7dc/react-native-gallery) React Native图片组件库，支持常见手势。
 
 ### 数据存储
 

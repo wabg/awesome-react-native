@@ -131,8 +131,11 @@
 * [学习ReactNative，全平台所需要的知识点](http://www.reactnativeexpress.com/)
 
 
-### 项目实践&教程   
+### 项目实践&教程
 
+* [React Native项目实战视频教程](http://coding.imooc.com/class/89.html)![ hot](http://www.devio.org/img/ico/ico_hot.gif)
+* [教你轻松在React Native中集成统计的功能)](http://www.devio.org/2017/09/03/React-Native-Integrated-analysis-function/)![ new](http://www.devio.org/img/ico/ico_new.gif)
+* [手把手教你构建运行React Native官方Examples](http://www.devio.org/2017/06/01/Construction-of-React-Native-Official/)
 * [ReactNative For Android 项目实战总结](https://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=401483604&idx=1&sn=399cdf7e13fe6125108de1bfd045f2cf&scene=1&srcid=0228wE75TF9Zqzny7mt7ZS3J&key=710a5d99946419d9b9d0a316ddb898594e9089b1b29a8759cca5ff2407c204f72876180e08fd6c60d3816da7e4c39053&ascene=0&uin=Mjc3OTU3Nzk1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.5+build%2814F27%29&version=11020201&pass_ticket=m2YLRqjCZ5S4CHXKqIpGbkf59t1oYvRDZ6krGXEuDfWlQcoVj1p2g8gzHOEYrM9U)
 * [Moles：携程基于React Native的跨平台开发框架](https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112408&idx=1&sn=32c2636a2653fe9391b44de514261cbf&scene=0&key=77421cf58af4a653dcba21da5c024ac89779f9441ef063c83a81320190267d73448404f84638ac9741a1c60d023e7e88&ascene=0&uin=Mjc3OTU3Nzk1&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.5+build%2814F1808%29&version=11020201&pass_ticket=x3C%2Bf%2BjqNCVt%2FGoLAeJ5hccBYdZiUgf8Rr%2FLW%2Bpr4auXqEdjgM%2Fbrnmu6Qu%2B3N7N)
 * [构建 Facebook F8 2016 App / React Native 开发指南](http://f8-app.liaohuqiu.net/)
@@ -340,7 +343,7 @@
 ## 视频   
 
 * [React Native项目实战视频](http://coding.imooc.com/class/89.html)
-* [React Native免费自学视频](http://www.imooc.com/note/808?sort=last&page=1)
+* [React Native免费自学视频](http://www.imooc.com/learn/808)
 * [React.js Conf 2016](https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY)
 
 ## 新闻&讨论

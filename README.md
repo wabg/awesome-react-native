@@ -210,6 +210,7 @@
 * [react-native-grid-view](https://github.com/lucholaf/react-native-grid-view) 网格视图，类似iOS中的UICollectionView
 * [react-native-keyboard-spacer](https://github.com/Andr3wHur5t/react-native-keyboard-spacer) 适用于iOS的根据键盘自动调整输入框
 * [react-native-keyboardevents](https://github.com/johanneslumpe/react-native-keyboardevents) 监听键盘显示/隐藏
+* [react-native-keyboard-aware-scroll-view](https://github.com/APSL/react-native-keyboard-aware-scroll-view) 一个处理键盘外观的组件，自动滚动到焦点的TextInput
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) 地图
 * [react-native-maps](https://github.com/lelandrichardson/react-native-maps) 地图
 * [react-native-material-kit](https://github.com/xinthink/react-native-material-kit) 一组UI Components，为了介绍  [Material Design](http://www.google.com/design/spec/material-design/introduction.html)

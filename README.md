@@ -1,4 +1,5 @@
-# React Native 学习资源精选仓库(汇聚知识，分享精华)
+React Native 学习资源精选仓库(汇聚知识，分享精华)
+---
 
 [![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录) [![](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://github.com/wabg/react-native-awesome) [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native)
 
@@ -7,44 +8,48 @@
 
 ## 目录
 
-* [资源网站](#资源网站)
-	* [React.js](#reactjs)
-	* [React Native](#react-native)
-* [教程](#教程)
-	* [React.js](#reactjs-1)
-	* [React Native](#react-native-1)
-		* [文档手册](#文档手册)
-		* [布局相关](#布局相关)
-		* [开发调试](#开发调试)
-		* [发布部署](#发布部署)
-	* [ES6&ES7](#es6es7)
-	* [项目实践&教程](#项目实践教程) 	
-	* [系列教程](#系列教程)
-* [开源APP](#开源app)
-* [框架](#框架)
-* [库](#库)
-* [组件](#组件)
-	* [UI](#ui)
-	* [Navigation](#navigation)
-	* [ViewPager](#viewpager)
-	* [ListView&ScrollView](#listviewscrollview)
-	* [Text&Rich Content](#text-rich-content)
-	* [弹框](#弹框)
-	* [音视频相机](#音视频相机)
-	* [图形动画](#图形动画)
-	* [数据存储](#数据存储)
-	* [Web相关](#web相关)
-	* [系统相关](#系统相关)
-	* [Material Design](#material-design)
-	* [工具包](#工具包)
-	* [TabLayout](#tablayout)
-* [工具](#工具)
-* [视频](#视频)
-* [新闻&讨论](#新闻讨论)
-* [一次学习，随处可写](#一次学习随处可写)
-* [一起踩坑](#一起踩坑)
-* [资源下载](#资源下载)
+<!-- TOC -->
 
+- [目录](#目录)
+- [资源网站](#资源网站)
+  - [ES6&ES7](#es6es7)
+  - [React.js](#reactjs)
+  - [React.js相关教程](#reactjs相关教程)
+  - [React Native](#react-native)
+- [教程](#教程)
+  - [布局相关](#布局相关)
+  - [开发调试](#开发调试)
+  - [发布部署](#发布部署)
+  - [系列教程](#系列教程)
+  - [项目实践&教程](#项目实践教程)
+- [开源APP](#开源app)
+- [框架](#框架)
+- [库](#库)
+- [组件](#组件)
+  - [UI](#ui)
+  - [Navigation](#navigation)
+  - [ViewPager](#viewpager)
+  - [ListView&ScrollView](#listviewscrollview)
+  - [Text&Rich Content](#textrich-content)
+  - [弹框](#弹框)
+  - [音视频相机](#音视频相机)
+  - [图形动画](#图形动画)
+  - [数据存储](#数据存储)
+  - [Web相关](#web相关)
+  - [系统相关](#系统相关)
+  - [Material Design](#material-design)
+  - [工具包](#工具包)
+  - [TabLayout](#tablayout)
+- [工具](#工具)
+  - [IDE](#ide)
+  - [其他](#其他)
+- [视频](#视频)
+- [新闻&讨论](#新闻讨论)
+- [一次学习，随处可写](#一次学习随处可写)
+- [一起踩坑](#一起踩坑)
+- [资源下载](#资源下载)
+
+<!-- /TOC -->
 
 ## 资源网站
 
@@ -69,6 +74,17 @@
 * [React-China社区](http://react-china.org/)
 * [组件的详细说明和生命周期（Component Specs and Lifecycle）](http://reactjs.cn/react/docs/component-specs.html)
 
+### React.js相关教程
+
+* [React速学教程(上)](http://blog.csdn.net/fengyuzhengfan/article/details/52185921)
+* [React速学教程(中)](http://blog.csdn.net/fengyuzhengfan/article/details/52201554)
+* [React速学教程(下)](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
+* [React入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
+* [React入门实例教程-阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
+* [React组件间通信](http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/)
+* [React数据流管理架构之 Redux 介绍](http://www.alloyteam.com/2015/09/react-redux/)
+
+
 ### React Native
 
 * [React Native 官方文档](https://facebook.github.io/react-native/)
@@ -80,19 +96,7 @@
 
 ## 教程
 
-### React.js
-
-* [React速学教程(上)](http://blog.csdn.net/fengyuzhengfan/article/details/52185921)
-* [React速学教程(中)](http://blog.csdn.net/fengyuzhengfan/article/details/52201554)
-* [React速学教程(下)](http://blog.csdn.net/fengyuzhengfan/article/details/52233582)
-* [React入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
-* [React入门实例教程-阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
-* [React组件间通信](http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/)
-* [React数据流管理架构之 Redux 介绍](http://www.alloyteam.com/2015/09/react-redux/)
-
-### React Native
-
-#### 布局相关  
+### 布局相关  
 
 * [React Native布局详细指南](http://blog.csdn.net/fengyuzhengfan/article/details/52090154)
 * [React Native布局篇](https://segmentfault.com/a/1190000002658374)
@@ -100,12 +104,12 @@
 * [React Native探索（二）：布局篇](http://www.infoq.com/cn/articles/react-native-layout)
 * [构建 F8 App / React Native 开发指南](http://f8-app.liaohuqiu.net/)
 
-#### 开发调试
+### 开发调试
 
 * [React Native调试技巧与心得](http://blog.csdn.net/fengyuzhengfan/article/details/52106496)
 * [教你轻松修改React Native端口(如何同时运行多个React Native、8081端口占用问题)](http://www.devio.org/2017/08/18/Modify-the-React-Native-listening-port/)![ new](http://www.devio.org/img/ico/ico_new.gif)
 
-#### 发布部署   
+### 发布部署   
 
 * [React-native Android环境搭建](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 * [React Native应用部署/热更新-CodePush最新集成总结](http://blog.csdn.net/fengyuzhengfan/article/details/52003798)

@@ -259,6 +259,7 @@
 * [react-native-SortableList](https://github.com/hayeah/react-native-SortableList) 拖拽排序组件。
 * [react-native-tableview](https://github.com/aksonov/react-native-tableview) 桥接了原生的UITableView
 * [react-native-sglistview](https://github.com/sghiassy/react-native-sglistview) 为了解决React Native中ListView的内存问题
+* [react-native-input-scroll-view](https://github.com/baijunjie/react-native-input-scroll-view) 完美的TextInput ScrollView
 
 
 ### Text&Rich Content  

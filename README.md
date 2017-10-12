@@ -237,6 +237,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 ### Navigation  
 
 * [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) 一款很火的导航组件。
+* [react-native-router](https://github.com/t4t5/react-native-router) 路由导航组件。
 * [react-native-navbar](https://github.com/react-native-community/react-native-navbar) 一款用于React Native上的可定制的导航条。
 * [react-native-tab-navigator](https://github.com/exponentjs/react-native-tab-navigator) 一款兼容Android、iOS的TabBar组件。
 * [react-native-drawer-layout](https://github.com/iodine/react-native-drawer-layout) 抽屉组件。

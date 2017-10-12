@@ -294,6 +294,7 @@
 * [gl-react-native](https://github.com/ProjectSeptemberInc/gl-react-native) React Native中使用OPENGL来实现复杂的图片和components渲染
 * [react-native-viewpager](https://github.com/race604/react-native-viewpager) 视图轮播，支持循环滚动，自定义视图。已做性能优化
 * [react-native-gallery](https://github.com/ldn0x7dc/react-native-gallery) React Native图片组件库，支持常见手势。
+* [lottie-react-native](https://github.com/airbnb/lottie-react-native) 基于Lactie封装的渲染After Effects动画
 
 ### 数据存储
 

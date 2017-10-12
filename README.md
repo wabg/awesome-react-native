@@ -213,7 +213,8 @@
 * [react-native-keyboardevents](https://github.com/johanneslumpe/react-native-keyboardevents) 监听键盘显示/隐藏
 * [react-native-keyboard-aware-scroll-view](https://github.com/APSL/react-native-keyboard-aware-scroll-view) 一个处理键盘外观的组件，自动滚动到焦点的TextInput
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) 地图
-* [react-native-maps](https://github.com/lelandrichardson/react-native-maps) 地图
+* [airbnb/react-native-maps](https://github.com/airbnb/react-native-maps) 针对iOS + Android的React Native Mapview组件
+* [lelandrichardson/react-native-maps](https://github.com/lelandrichardson/react-native-maps) 地图
 * [react-native-material-kit](https://github.com/xinthink/react-native-material-kit) 一组UI Components，为了介绍  [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 * [react-native-modalbox](https://github.com/maxs15/react-native-modalbox) 用于模态显示的Component
 * [react-native-orientation](https://github.com/yamill/react-native-orientation) 监听设备旋转

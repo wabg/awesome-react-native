@@ -356,7 +356,9 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 
 * [CodePush](https://microsoft.github.io/code-push/)：CodePush 是微软提供的一套用于热更新 React Native 和 Cordova 应用的服务。
 * [Redux](https://github.com/reactjs/redux/)：用于JavaScript apps上的一款可预见的状态管理框架。
-* [redux-react-native-i18n](https://github.com/derzunov/redux-react-native-i18n) An i18n solution with plural forms support for React Native apps on Redux
+* [redux-react-native-i18n](https://github.com/derzunov/redux-react-native-i18n) 具有复数形式的i18n解决方案支持Redux上的React Native应用程序
+* [React Sight](http://www.reactsight.com/) 用于React的可视化工具，支持Fiber，Router（v4）和Redux [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/React-Sight)
+* [React Developer Tools](https://github.com/facebook/react-devtools) 一个扩展程序，允许检查Chrome和Firefox开发人员工具中的React组件层次结构。 [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/facebook/react-devtools)
 
 
 ## 视频   

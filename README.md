@@ -175,6 +175,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [react-native-BabyHealth-](https://github.com/liuhongjun719/react-native-BabyHealth-)：仿 “宝宝健康” app，实现Listview展示、收藏、跳到appstore、react-redux与redux-thunk的使用
 * [react-native接入ios/android原生模块](https://github.com/Xing-He/react-native-nativeModule) : react-native接入ios/android原生模块例子
 * [react-native图片上传实例](https://github.com/Xing-He/imagePicker)  
+* [movieapp] (https://github.com/junedomingo/movieapp) : Discover Movies and TV shows - React Native
 
 ## 框架
 
@@ -359,7 +360,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [redux-react-native-i18n](https://github.com/derzunov/redux-react-native-i18n) 具有复数形式的i18n解决方案支持Redux上的React Native应用程序
 * [React Sight](http://www.reactsight.com/) 用于React的可视化工具，支持Fiber，Router（v4）和Redux [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/React-Sight)
 * [React Developer Tools](https://github.com/facebook/react-devtools) 一个扩展程序，允许检查Chrome和Firefox开发人员工具中的React组件层次结构。 [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/facebook/react-devtools)
-
+* [react-native-rename] (https://github.com/junedomingo/react-native-rename) : Rename react-native app with just one command
 
 ## 视频   
 

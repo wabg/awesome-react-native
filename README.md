@@ -64,7 +64,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
 * [深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
 * [阮一峰ES6 文档](http://es6.ruanyifeng.com/#docs/intro)
-
+* [JS 函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
 
 ### React.js
 
@@ -134,7 +134,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [ReactNative iOS源码解析（二）](http://awhisper.github.io/2016/07/02/ReactNative%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%902/)
 * [学习ReactNative，全平台所需要的知识点](http://www.reactnativeexpress.com/)
 * [React Native与Iconfont](https://github.com/MrErHu/blog/issues/15)
-
+* [React Native Animation Book](http://browniefed.com/react-native-animation-book/)
 
 ### 项目实践&教程
 
@@ -147,7 +147,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [React Native 从入门到原理](http://www.jianshu.com/p/978c4bd3a759#)
 * [在react-native中使用redux](http://www.jianshu.com/p/2c43860b0532)
 * [深入浅出 - Redux](https://github.com/berwin/Blog/issues/4)
-
+* [优化 Redux 架构的 10 个技巧【译】](https://blog.yongyuan.us/articles/2016-09-04-redux-10-tips/)
 
 ## 开源APP  
 
@@ -357,10 +357,11 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 
 * [CodePush](https://microsoft.github.io/code-push/)：CodePush 是微软提供的一套用于热更新 React Native 和 Cordova 应用的服务。
 * [Redux](https://github.com/reactjs/redux/)：用于JavaScript apps上的一款可预见的状态管理框架。
+* [MobX](https://github.com/mobxjs/mobx)：与 Redux 相比，更轻便、自由的状态管理框架。
 * [redux-react-native-i18n](https://github.com/derzunov/redux-react-native-i18n) 具有复数形式的i18n解决方案支持Redux上的React Native应用程序
 * [React Sight](http://www.reactsight.com/) 用于React的可视化工具，支持Fiber，Router（v4）和Redux [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/React-Sight)
 * [React Developer Tools](https://github.com/facebook/react-devtools) 一个扩展程序，允许检查Chrome和Firefox开发人员工具中的React组件层次结构。 [Chrome Plug](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) [github](https://github.com/facebook/react-devtools)
-* [react-native-rename] (https://github.com/junedomingo/react-native-rename) : Rename react-native app with just one command
+* [react-native-rename](https://github.com/junedomingo/react-native-rename) : Rename react-native app with just one command
 
 ## 视频   
 

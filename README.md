@@ -92,6 +92,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [React Native 中文版 - reactnative.cn](http://reactnative.cn/)
 * [React Native中文社区](http://bbs.react-native.cn/)
 * [React Native组件库网站](https://js.coach/react-native)
+* [React Native组件库网站](https://www.native.directory)
 * [Use React Native 资讯站](http://www.reactnative.com/)
 
 ## 教程

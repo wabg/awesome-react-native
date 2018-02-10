@@ -389,9 +389,9 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 - 最终都需要将`libRCTAnimation.a` 文件导入 [react-native issues #11094](https://github.com/facebook/react-native/issues/11094)
 - [error: unable to find utility "instruments", not a developer tool or in PATH](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#5-error-unable-to-find-utility-instruments-not-a-developer-tool-or-in-path)
 - [Property 'force' not found on object of type 'UITouch'](https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#6-property-force-not-found-on-object-of-type-uitouch)
-- 应用反应缓慢，出现卡顿：  
- * 查看是否console日志打印过度造成
- * React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
+- 应用反应缓慢，出现卡顿： 
+  1. 查看是否console日志打印过度造成
+  2. React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面
 - [小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session](http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native)  
 - [*.h file-not-found](http://stackoverflow.com/questions/5198905/h-file-not-found)
 - [修改安卓app在手机上展示的名称](http://www.nowamagic.net/librarys/topics/detail/444)

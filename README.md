@@ -194,6 +194,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [react-native-launch-image](https://github.com/reactnativecn/react-native-launch-image)：用在React Native上手动关闭iOS启动界面（Launch Screen）的工具。[详细说明](http://reactnative.cn/post/2199)  
 * [RNShareSDK](https://github.com/kengsir/RNShareSDK)：一款基于原生平台ShareSDK的ReactNative插件,方便RN开发者集成各大社交平台的分享和授权功能。
 * [react-native-social-kit](https://github.com/yoaicom/react-native-social-kit)：对第三方社交账号SDK的封装，使开发者能在React Native App里使用授权、分享等功能。
+* [react-native-agora](https://github.com/syanbo/react-native-agora): 基于声网音视频SDK封装的React Native模块，方便RN开发者可以轻松集成WebRTC功能，实现电话会议，视频会议，直播等功能。
 
 
 ## 组件  

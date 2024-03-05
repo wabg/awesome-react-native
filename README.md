@@ -176,7 +176,8 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [react-native-BabyHealth-](https://github.com/liuhongjun719/react-native-BabyHealth-)：仿 “宝宝健康” app，实现Listview展示、收藏、跳到appstore、react-redux与redux-thunk的使用
 * [react-native接入ios/android原生模块](https://github.com/Xing-He/react-native-nativeModule) : react-native接入ios/android原生模块例子
 * [react-native图片上传实例](https://github.com/Xing-He/imagePicker)  
-* [movieapp] (https://github.com/junedomingo/movieapp) : Discover Movies and TV shows - React Native
+* [movieapp](https://github.com/junedomingo/movieapp) : Discover Movies and TV shows - React Native
+* [C-Shopping-RN APP](https://github.com/huanghanzhilian/c-shopping-rn) : 一个精美的电商购物应用
 
 ## 框架
 

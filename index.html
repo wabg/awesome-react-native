@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Native Awesome</title>
+    <meta name="description" content="欢迎来到《React Native Awesome》项目的精心整理！本项目是在原项目的基础上进行了fork，并集结了丰富多彩的 React Native 学习资料、工具、组件、开源App、资源下载以及相关新闻等。我们致力于提供精准而不求全面">
+    <meta name="keywords" content="React Native,Awesome,react-native-awesome">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.28.2">
+    <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.28.2">
+    <link rel="stylesheet" type="text/css" href="css/media.css?v=1.28.2">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css?v=1.28.2">
+    <link rel="stylesheet" type="text/css" href="css/copy.css?v=1.28.2">
+    <link rel="stylesheet" type="text/css" href="css/demo-preview.css?v=1.28.2">
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    <script src="js/copy.js?v=1.28.2"></script>
+    <script src="js/dark-mode.js?v=1.28.2"></script>
+    <script src="js/markdown-style.js?v=1.28.2"></script>
+  </head>
+  <body id="idoctotop"><a href="#idoctotop" class="gototop">top</a>
+    <header class="header">
+      <article class="inner warpper"><a class="logo" href="index.html"><img alt="React Native Awesome logo" src="data:image/png;base64,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">
+<span class="title">React Native Awesome</span></a>
+        <div class="content">
+          <ul class="menu">
+            <li><a href="index.html" target="" class="active">Home</a></li>
+            <li><a href="https://wangchujiang.com/#/about" target="__blank" class="">About</a></li>
+          </ul><a href="https://github.com/wabg/awesome-react-native" target="_blank" rel="noopener noreferrer" title="Github" name="Github" class="github"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg></a>
+          <dark-mode permanent=""></dark-mode>
+        </div>
+      </article>
+    </header>
+    <div class="warpper-content warpper">
+      <markdown-style theme-auto-switch-disabled="">
+        <h2 id="react-native-学习资源精选仓库汇聚知识分享精华"><a aria-hidden="true" tabindex="-1" href="#react-native-学习资源精选仓库汇聚知识分享精华" class="anchor"><span class="icon icon-link"></span></a>React Native 学习资源精选仓库(汇聚知识，分享精华)</h2>
+        <p>
+          <a href="#%E7%9B%AE%E5%BD%95"><img src="https://jaywcjlove.github.io/sb/ico/awesome.svg" alt=""></a>
+          <a href="https://github.com/jondot/awesome-react-native"><img src="https://jaywcjlove.github.io/sb/lang/english.svg" alt=""></a>
+        </p>
+        <p>欢迎来到《<a href="https://github.com/crazycodeboy/react-native-awesome">React Native Awesome</a>》项目的精心整理！本项目是在原项目的基础上进行了fork，并集结了丰富多彩的 React Native 学习资料、工具、组件、开源App、资源下载以及相关新闻等。我们致力于提供精准而不求全面的内容。由于后续无法进行 Pull Requests ，因此我们在此基础上进一步扩充了资源，包括但不限于一同解决问题、音视频相机、图形动画等领域，使项目内容更为丰富🔥。无论你是初学者还是有经验的开发者，我们相信这里能够满足你对React Native 学习的各种需求。一起探索 React Native 的奇妙世界吧！</p>
+        <h2 id="目录"><a aria-hidden="true" tabindex="-1" href="#目录" class="anchor"><span class="icon icon-link"></span></a>目录</h2>
+        <h2 id="资源网站"><a aria-hidden="true" tabindex="-1" href="#资源网站" class="anchor"><span class="icon icon-link"></span></a>资源网站</h2>
+        <h3 id="es6es7"><a aria-hidden="true" tabindex="-1" href="#es6es7" class="anchor"><span class="icon icon-link"></span></a>ES6&#x26;ES7</h3>
+        <ul>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52233582">ES6的新特性，以及ES6与ES5的区别</a></li>
+          <li><a href="http://www.infoq.com/cn/articles/es6-in-depth-classes/">深入浅出ES6（十三）：类 Class</a></li>
+          <li><a href="http://www.cnblogs.com/diligenceday/p/5503777.html">ES6新特性：使用export和import实现模块化</a></li>
+          <li><a href="http://www.infoq.com/cn/news/2015/07/JavaScript-Promises-Generator?utm_campaign=infoq_content&#x26;utm_source=infoq&#x26;utm_medium=feed&#x26;utm_term=global">ES6令人激动的特性</a></li>
+          <li><a href="https://segmentfault.com/a/1190000002904199">ES6 学习笔记</a></li>
+          <li><a href="https://babeljs.io/blog/2015/06/07/react-on-es6-plus">React on ES6+</a></li>
+          <li><a href="http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8">React/React Native 的ES5 ES6写法对照表</a></li>
+          <li><a href="http://www.infoq.com/cn/es6-in-depth/">深入浅出ES6</a></li>
+          <li><a href="http://es6.ruanyifeng.com/#docs/intro">阮一峰ES6 文档</a></li>
+          <li><a href="https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details">JS 函数式编程指南</a></li>
+        </ul>
+        <h3 id="reactjs"><a aria-hidden="true" tabindex="-1" href="#reactjs" class="anchor"><span class="icon icon-link"></span></a>React.js</h3>
+        <ul>
+          <li><a href="https://facebook.github.io/react/">React官网</a></li>
+          <li><a href="http://reactjs.cn/">React中文网</a></li>
+          <li><a href="https://react-guide.github.io/react-router-cn/">React Router中文文档</a></li>
+          <li><a href="http://react-china.org/">React-China社区</a></li>
+          <li><a href="http://reactjs.cn/react/docs/component-specs.html">组件的详细说明和生命周期（Component Specs and Lifecycle）</a></li>
+        </ul>
+        <h3 id="reactjs相关教程"><a aria-hidden="true" tabindex="-1" href="#reactjs相关教程" class="anchor"><span class="icon icon-link"></span></a>React.js相关教程</h3>
+        <ul>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52185921">React速学教程(上)</a></li>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52201554">React速学教程(中)</a></li>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52233582">React速学教程(下)</a></li>
+          <li><a href="https://hulufei.gitbooks.io/react-tutorial/content/introduction.html">React入门教程</a></li>
+          <li><a href="http://www.ruanyifeng.com/blog/2015/03/react.html">React入门实例教程-阮一峰</a></li>
+          <li><a href="http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/">React组件间通信</a></li>
+          <li><a href="http://www.alloyteam.com/2015/09/react-redux/">React数据流管理架构之 Redux 介绍</a></li>
+        </ul>
+        <h3 id="react-native"><a aria-hidden="true" tabindex="-1" href="#react-native" class="anchor"><span class="icon icon-link"></span></a>React Native</h3>
+        <ul>
+          <li><a href="https://facebook.github.io/react-native/">React Native 官方文档</a></li>
+          <li><a href="http://wiki.jikexueyuan.com/project/react-native/">React Native 中文版 - 极客学院</a></li>
+          <li><a href="http://reactnative.cn/">React Native 中文版 - reactnative.cn</a></li>
+          <li><a href="http://bbs.react-native.cn/">React Native中文社区</a></li>
+          <li><a href="https://js.coach/react-native">React Native组件库网站</a></li>
+          <li><a href="https://www.native.directory">React Native组件库网站</a></li>
+          <li><a href="http://www.reactnative.com/">Use React Native 资讯站</a></li>
+        </ul>
+        <h2 id="教程"><a aria-hidden="true" tabindex="-1" href="#教程" class="anchor"><span class="icon icon-link"></span></a>教程</h2>
+        <h3 id="布局相关"><a aria-hidden="true" tabindex="-1" href="#布局相关" class="anchor"><span class="icon icon-link"></span></a>布局相关</h3>
+        <ul>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52090154">React Native布局详细指南</a></li>
+          <li><a href="https://segmentfault.com/a/1190000002658374">React Native布局篇</a></li>
+          <li><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex 布局语法教程</a></li>
+          <li><a href="http://www.infoq.com/cn/articles/react-native-layout">React Native探索（二）：布局篇</a></li>
+          <li><a href="http://f8-app.liaohuqiu.net/">构建 F8 App / React Native 开发指南</a></li>
+        </ul>
+        <h3 id="开发调试"><a aria-hidden="true" tabindex="-1" href="#开发调试" class="anchor"><span class="icon icon-link"></span></a>开发调试</h3>
+        <ul>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52106496">React Native调试技巧与心得</a></li>
+          <li><a href="http://www.devio.org/2017/08/18/Modify-the-React-Native-listening-port/">教你轻松修改React Native端口(如何同时运行多个React Native、8081端口占用问题)</a>
+            <img src="http://www.devio.org/img/ico/ico_new.gif" alt=" new">
+          </li>
+        </ul>
+        <h3 id="发布部署"><a aria-hidden="true" tabindex="-1" href="#发布部署" class="anchor"><span class="icon icon-link"></span></a>发布部署</h3>
+        <ul>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md">React-native Android环境搭建</a></li>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/52003798">React Native应用部署/热更新-CodePush最新集成总结</a></li>
+          <li><a href="http://blog.csdn.net/fengyuzhengfan/article/details/51958848">React Native发布APP之签名打包APK</a></li>
+          <li><a href="http://bbs.reactnative.cn/topic/276/reactnative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88">ReactNative增量升级方案</a></li>
+          <li><a href="http://www.liaohuqiu.net/cn/posts/react-native-android-package/">React Native: Android 的打包</a></li>
+          <li><a href="http://www.liuchungui.com/blog/2016/05/02/reactnativezhi-yuan-sheng-mo-kuai-kai-fa-bing-fa-bu-iospian/">ReactNative之原生模块开发并发布——iOS篇</a></li>
+          <li><a href="http://www.liuchungui.com/blog/2016/05/08/reactnativezhi-yuan-sheng-mo-kuai-kai-fa-bing-fa-bu-androidpian/">ReactNative之原生模块开发并发布——android篇</a></li>
+          <li><a href="http://www.race604.com/react-native-for-android-start/">React Native for Android 入门老虎</a></li>
+        </ul>
+        <h3 id="系列教程"><a aria-hidden="true" tabindex="-1" href="#系列教程" class="anchor"><span class="icon icon-link"></span></a>系列教程</h3>
+        <ul>
+          <li><a href="https://github.com/crazycodeboy/RNStudyNotes">React Native 学习笔记</a></li>
+          <li><a href="http://blog.csdn.net/column/details/react-native-advance.html">React Native高手进阶-专栏</a></li>
+          <li><a href="http://www.jianshu.com/collection/b6da4107b30d">React Native高手进阶-专题</a></li>
+          <li><a href="https://github.com/crazycodeboy/RNStudyNotes/tree/master/React%20Native%20%E6%AF%8F%E6%97%A5%E4%B8%80%E5%AD%A6">React Native 每日一学(Learn a little every day)</a></li>
+          <li><a href="https://github.com/vczero/react-native-lesson">React-Native-lesson</a></li>
+          <li><a href="https://github.com/Kennytian/learning-react-native">React Native 学习笔记</a></li>
+          <li><a href="http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/">React Native 之 JSBridge</a></li>
+          <li><a href="http://awhisper.github.io/2016/06/24/ReactNative%E6%B5%81%E7%A8%8B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/">ReactNative iOS源码解析（一）</a></li>
+          <li><a href="http://awhisper.github.io/2016/07/02/ReactNative%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%902/">ReactNative iOS源码解析（二）</a></li>
+          <li><a href="http://www.reactnativeexpress.com/">学习ReactNative，全平台所需要的知识点</a></li>
+          <li><a href="https://github.com/MrErHu/blog/issues/15">React Native与Iconfont</a></li>
+          <li><a href="http://browniefed.com/react-native-animation-book/">React Native Animation Book</a></li>
+        </ul>
+        <h3 id="项目实践教程"><a aria-hidden="true" tabindex="-1" href="#项目实践教程" class="anchor"><span class="icon icon-link"></span></a>项目实践&#x26;教程</h3>
+        <ul>
+          <li><a href="http://coding.imooc.com/class/89.html">React Native项目实战视频教程</a>
+            <img src="http://www.devio.org/img/ico/ico_hot.gif" alt=" hot">
+          </li>
+          <li><a href="http://www.devio.org/2017/09/03/React-Native-Integrated-analysis-function/">教你轻松在React Native中集成统计的功能)</a>
+            <img src="http://www.devio.org/img/ico/ico_new.gif" alt=" new">
+          </li>
+          <li><a href="http://www.devio.org/2017/06/01/Construction-of-React-Native-Official/">手把手教你构建运行React Native官方Examples</a></li>
+          <li><a href="https://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&#x26;mid=401483604&#x26;idx=1&#x26;sn=399cdf7e13fe6125108de1bfd045f2cf&#x26;scene=1&#x26;srcid=0228wE75TF9Zqzny7mt7ZS3J&#x26;key=710a5d99946419d9b9d0a316ddb898594e9089b1b29a8759cca5ff2407c204f72876180e08fd6c60d3816da7e4c39053&#x26;ascene=0&#x26;uin=Mjc3OTU3Nzk1&#x26;devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.5+build%2814F27%29&#x26;version=11020201&#x26;pass_ticket=m2YLRqjCZ5S4CHXKqIpGbkf59t1oYvRDZ6krGXEuDfWlQcoVj1p2g8gzHOEYrM9U">ReactNative For Android 项目实战总结</a></li>
+          <li><a href="https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&#x26;mid=2651112408&#x26;idx=1&#x26;sn=32c2636a2653fe9391b44de514261cbf&#x26;scene=0&#x26;key=77421cf58af4a653dcba21da5c024ac89779f9441ef063c83a81320190267d73448404f84638ac9741a1c60d023e7e88&#x26;ascene=0&#x26;uin=Mjc3OTU3Nzk1&#x26;devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.5+build%2814F1808%29&#x26;version=11020201&#x26;pass_ticket=x3C%2Bf%2BjqNCVt%2FGoLAeJ5hccBYdZiUgf8Rr%2FLW%2Bpr4auXqEdjgM%2Fbrnmu6Qu%2B3N7N">Moles：携程基于React Native的跨平台开发框架</a></li>
+          <li><a href="http://f8-app.liaohuqiu.net/">构建 Facebook F8 2016 App / React Native 开发指南</a></li>
+          <li><a href="http://www.jianshu.com/p/978c4bd3a759#">React Native 从入门到原理</a></li>
+          <li><a href="http://www.jianshu.com/p/2c43860b0532">在react-native中使用redux</a></li>
+          <li><a href="https://github.com/berwin/Blog/issues/4">深入浅出 - Redux</a></li>
+          <li><a href="https://blog.yongyuan.us/articles/2016-09-04-redux-10-tips/">优化 Redux 架构的 10 个技巧【译】</a></li>
+        </ul>
+        <h2 id="开源app"><a aria-hidden="true" tabindex="-1" href="#开源app" class="anchor"><span class="icon icon-link"></span></a>开源APP</h2>
+        <blockquote>
+          <p>它山之石可以攻玉。</p>
+        </blockquote>
+        <ul>
+          <li><a href="https://github.com/crazycodeboy/GitHubPopular">GitHubPopular</a>：基于React Native的查看、阅读、收藏GitHub上 最受欢迎的开源项目的APP，不仅如此，它还是一款GitHub Trending的客户端。</li>
+          <li><a href="https://github.com/facebook/react-native/tree/master/Examples">React Native官方Demo</a>：React Native官方Demo，汇集了各种组件，API的使用Examples。</li>
+          <li><a href="https://github.com/fbsamples/f8app">Facebook F8 App </a>：基于React Native 的2016 F8大会APP。</li>
+          <li><a href="https://github.com/iSimar/HackerNews-React-Native">HackerNews-React-Native</a>：Hacker 新闻客户端。</li>
+          <li><a href="https://github.com/benoitvallon/react-native-nw-react-calculator">react-native-nw-react-calculator</a>：基于React Native的计算器，iOS/Android、Web、桌面多端。</li>
+          <li><a href="https://github.com/catalinmiron/react-native-dribbble-app">react-native-dribbble-app</a>：基于React Native的Dribbble客户端。</li>
+          <li><a href="https://github.com/soliury/noder-react-native">noder-react-native</a>：Noder-cnodejs客户端。</li>
+          <li><a href="https://github.com/race604/ZhiHuDaily-React-Native">ZhiHuDaily-React-Native</a>：知乎日报Android版。</li>
+          <li><a href="https://github.com/xiekw2010/react-native-gitfeed">react-native-gitfeed</a>：一款基于React Native的GitHub客户端。</li>
+          <li><a href="https://github.com/7kfpun/FinanceReactNative">FinanceReactNative</a>：Finance - 股票报价app。</li>
+          <li><a href="https://github.com/Bob1993/React-Native-Gank">React-Native-Gank</a>：Gank.io客户端。</li>
+          <li><a href="https://github.com/leanote/leanote-ios-rn">leanote-ios-rnLeanote</a>：Leanote for iOS(云笔记)。</li>
+          <li><a href="https://github.com/bigsui/shopping-react-native">shopping-react-native</a> ：购物app-界面。</li>
+          <li><a href="https://github.com/wwayne/react-native-nba-app">react-native-nba-app</a>：This is why we play。</li>
+          <li><a href="http://git.oschina.net/rplees/react-native-gitosc">react-native-gitosc</a>：使用React Native重写的OSChina的Git@OSC客户端。</li>
+          <li><a href="https://github.com/attentiveness/reading">reading</a>：iReading App。</li>
+          <li><a href="https://github.com/kailuo99/toutiao">toutiao</a>：一款基于react-native 的ios android版 资讯头条 APP。</li>
+          <li><a href="https://github.com/heruijun/react-native-lagou">react-native-lagou</a>：用react native写的仿拉勾ios版本demo。</li>
+          <li><a href="https://github.com/yongqianvip/RN-ListViewLoadMore">RN-ListViewLoadMore</a>：ReactNative基础项目，包含Navigator、TabBar、以及ListView的Refresh和LoadMore</li>
+          <li><a href="https://github.com/liuhongjun719/react-native-BabyHealth-">react-native-BabyHealth-</a>：仿 “宝宝健康” app，实现Listview展示、收藏、跳到appstore、react-redux与redux-thunk的使用</li>
+          <li><a href="https://github.com/Xing-He/react-native-nativeModule">react-native接入ios/android原生模块</a> : react-native接入ios/android原生模块例子</li>
+          <li><a href="https://github.com/Xing-He/imagePicker">react-native图片上传实例</a></li>
+          <li><a href="https://github.com/junedomingo/movieapp">movieapp</a> : Discover Movies and TV shows - React Native</li>
+          <li><a href="https://github.com/huanghanzhilian/c-shopping-rn">C-Shopping-RN APP</a> : 一个精美的电商购物应用</li>
+        </ul>
+        <h2 id="框架"><a aria-hidden="true" tabindex="-1" href="#框架" class="anchor"><span class="icon icon-link"></span></a>框架</h2>
+        <blockquote>
+          <p>React-Native开发的库/ SDK类型。</p>
+        </blockquote>
+        <ul>
+          <li><a href="https://github.com/GeekyAnts/NativeBase">NativeBase</a>：一款融合了ES6用于在React Native上创建创建高质量的Android&#x26;iOS APP的框架。</li>
+          <li><a href="https://github.com/gcanti/tcomb-form-native">tcomb-form-native</a>：强大的表单处理控件，支持 JSON 模式，可插拔的外观和感觉。</li>
+          <li><a href="https://github.com/blankapp/ui">BlankApp UI</a>：React Native的高度可定制和主题组件。</li>
+          <li><a href="https://github.com/shoutem/ui">Shoutem UI</a>：一个完整React Native的UI工具包。</li>
+          <li><a href="https://github.com/dabit3/React-Native-Elements">React Native Elements</a>：React Native UI元素和组件的集合。</li>
+          <li><a href="https://github.com/bmcmahen/panza">Panza</a>：收集无状态，功能性，跨平台的ui组件，用于React Native。</li>
+        </ul>
+        <h2 id="库"><a aria-hidden="true" tabindex="-1" href="#库" class="anchor"><span class="icon icon-link"></span></a>库</h2>
+        <ul>
+          <li><a href="https://github.com/reactnativecn/react-native-launch-image">react-native-launch-image</a>：用在React Native上手动关闭iOS启动界面（Launch Screen）的工具。<a href="http://reactnative.cn/post/2199">详细说明</a></li>
+          <li><a href="https://github.com/kengsir/RNShareSDK">RNShareSDK</a>：一款基于原生平台ShareSDK的ReactNative插件,方便RN开发者集成各大社交平台的分享和授权功能。</li>
+          <li><a href="https://github.com/yoaicom/react-native-social-kit">react-native-social-kit</a>：对第三方社交账号SDK的封装，使开发者能在React Native App里使用授权、分享等功能。</li>
+          <li><a href="https://github.com/syanbo/react-native-agora">react-native-agora</a>: 基于声网音视频SDK封装的React Native模块，方便RN开发者可以轻松集成WebRTC功能，实现电话会议，视频会议，直播等功能。</li>
+        </ul>
+        <h2 id="组件"><a aria-hidden="true" tabindex="-1" href="#组件" class="anchor"><span class="icon icon-link"></span></a>组件</h2>
+        <h3 id="ui"><a aria-hidden="true" tabindex="-1" href="#ui" class="anchor"><span class="icon icon-link"></span></a>UI</h3>
+        <ul>
+          <li><a href="https://github.com/react-native-community/React-Native-Elements">React-Native-Elements</a> 一组开发RN的UI工具包（强烈推荐）</li>
+          <li><a href="https://github.com/APSL/react-native-button">APSL/react-native-button</a> 支持多种点击事件的Button控件</li>
+          <li><a href="https://github.com/mastermoo/react-native-action-button">mastermoo/react-native-action-button</a> 可自定义的多动作按钮组件</li>
+          <li><a href="https://github.com/naoufal/react-native-activity-view">react-native-activity-view</a> iOS上的分享和action sheets组件</li>
+          <li><a href="https://github.com/FuYaoDe/react-native-app-intro">react-native-app-intro</a> 引导页</li>
+          <li><a href="https://github.com/react-native-fellowship/react-native-blur">react-native-blur</a> 添加模糊或者毛玻璃效果</li>
+          <li><a href="https://github.com/christopherdro/react-native-calendar">react-native-calendar</a> 日历</li>
+          <li><a href="https://github.com/oblador/react-native-collapsible">react-native-collapsible</a> 可折叠的component</li>
+          <li><a href="https://github.com/root-two/react-native-drawer">React Native Drawer</a> 抽屉效果，可 用来实现侧拉菜单</li>
+          <li><a href="https://github.com/alinz/react-native-dropdown">react-native-dropdown</a>下拉菜单</li>
+          <li><a href="https://github.com/voronianski/react-native-effects-view">ReactNativeEffectsView</a> 封装了iOS 8上的UIVisualEffectViews，在React Native中实现毛玻璃效果</li>
+          <li><a href="https://github.com/spikef/react-native-gesture-password">react-native-gesture-password</a> 手势解锁，支持iOS和Android</li>
+          <li><a href="https://github.com/FaridSafi/react-native-gifted-form">react-native-gifted-form</a> 在React Native中方便的使用表格</li>
+          <li><a href="https://github.com/FaridSafi/react-native-gifted-messenger">react-native-gifted-messenger</a> 方便的实现聊天UI</li>
+          <li><a href="https://github.com/lucholaf/react-native-grid-view">react-native-grid-view</a> 网格视图，类似iOS中的UICollectionView</li>
+          <li><a href="https://github.com/Andr3wHur5t/react-native-keyboard-spacer">react-native-keyboard-spacer</a> 适用于iOS的根据键盘自动调整输入框</li>
+          <li><a href="https://github.com/johanneslumpe/react-native-keyboardevents">react-native-keyboardevents</a> 监听键盘显示/隐藏</li>
+          <li><a href="https://github.com/APSL/react-native-keyboard-aware-scroll-view">react-native-keyboard-aware-scroll-view</a> 一个处理键盘外观的组件，自动滚动到焦点的TextInput</li>
+          <li><a href="https://github.com/mapbox/react-native-mapbox-gl">react-native-mapbox-gl</a> 地图</li>
+          <li><a href="https://github.com/airbnb/react-native-maps">airbnb/react-native-maps</a> 针对iOS + Android的React Native Mapview组件</li>
+          <li><a href="https://github.com/lelandrichardson/react-native-maps">lelandrichardson/react-native-maps</a> 地图</li>
+          <li><a href="https://github.com/xinthink/react-native-material-kit">react-native-material-kit</a> 一组UI Components，为了介绍 <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a></li>
+          <li><a href="https://github.com/maxs15/react-native-modalbox">react-native-modalbox</a> 用于模态显示的Component</li>
+          <li><a href="https://github.com/yamill/react-native-orientation">react-native-orientation</a> 监听设备旋转</li>
+          <li><a href="https://github.com/oblador/react-native-parallax">react-native-parallax</a> parallax效果</li>
+          <li><a href="https://github.com/beefe/react-native-picker">react-native-picker</a> 选择器，可用于实现时间选择，区域选择</li>
+          <li><a href="https://github.com/naoufal/react-native-progress-hud">react-native-progress-hud</a> ProgressHUD</li>
+          <li><a href="https://github.com/wix/react-native-controllers">react-native-controllers</a> 封装了 原生的iOS 导航栏，tabbar，抽屉效果等。</li>
+          <li><a href="https://github.com/umhan35/react-native-search-bar">react-native-search-bar</a> 封装iOS原生UISearchBar</li>
+          <li><a href="https://github.com/maxs15/react-native-spinkit">react-native-spinkit</a> 一组Activity指示器</li>
+          <li><a href="https://github.com/remobile/react-native-splashscreen">react-native-splashscreen</a> App载入视图，启动后自动隐藏</li>
+          <li><a href="https://github.com/oblador/react-native-vector-icons">react-native-vector-icons</a> 3000+支持自定义的图标</li>
+          <li><a href="https://github.com/exponentjs/react-native-invertible-scroll-view">react-native-invertible-scroll-view</a> 逆向的ScrollView，从底部开始布局，适用于聊天等向上滑动来加载更多的情况</li>
+          <li><a href="https://github.com/niftylettuce/react-native-loading-spinner-overlay">react-native-loading-spinner-overlay</a> 加载中的提示spinner ,支持iOS/Android</li>
+          <li><a href="https://github.com/aksonov/react-native-tabs">react-native-tabs</a> 选项卡可用于底部标签栏以及分段视图</li>
+        </ul>
+        <h3 id="navigation"><a aria-hidden="true" tabindex="-1" href="#navigation" class="anchor"><span class="icon icon-link"></span></a>Navigation</h3>
+        <ul>
+          <li><a href="https://github.com/aksonov/react-native-router-flux">react-native-router-flux</a> 一款很火的导航组件。</li>
+          <li><a href="https://github.com/t4t5/react-native-router">react-native-router</a> 路由导航组件。</li>
+          <li><a href="https://github.com/react-native-community/react-native-navbar">react-native-navbar</a> 一款用于React Native上的可定制的导航条。</li>
+          <li><a href="https://github.com/exponentjs/react-native-tab-navigator">react-native-tab-navigator</a> 一款兼容Android、iOS的TabBar组件。</li>
+          <li><a href="https://github.com/iodine/react-native-drawer-layout">react-native-drawer-layout</a> 抽屉组件。</li>
+          <li><a href="https://github.com/root-two/react-native-drawer">react-native-drawer</a> 另一款抽屉组件。</li>
+          <li><a href="https://github.com/exponentjs/ex-navigator">ex-navigator</a> 封装Navigator,以Route为中心的Navigator</li>
+        </ul>
+        <h3 id="viewpager"><a aria-hidden="true" tabindex="-1" href="#viewpager" class="anchor"><span class="icon icon-link"></span></a>ViewPager</h3>
+        <ul>
+          <li><a href="https://github.com/leecade/react-native-swiper">react-native-swiper</a> 一款轮番滑动的组件。</li>
+          <li><a href="https://github.com/appintheair/react-native-looped-carousel">react-native-looped-carousel</a> 滚动轮播组件。</li>
+        </ul>
+        <h3 id="listviewscrollview"><a aria-hidden="true" tabindex="-1" href="#listviewscrollview" class="anchor"><span class="icon icon-link"></span></a>ListView&#x26;ScrollView</h3>
+        <ul>
+          <li><a href="https://github.com/jsdf/react-native-refreshable-listview">react-native-refreshable-listview</a> 下拉刷新组件。</li>
+          <li><a href="https://github.com/syrusakbary/react-native-refresherw">react-native-refresherw</a> 下拉刷新组件。</li>
+          <li><a href="https://github.com/Obooman/RCTRefreshControl">react-native-drop-refresh</a> 下拉刷新组件。</li>
+          <li><a href="https://github.com/syrusakbary/react-native-refresher">react-native-refresher</a> 支持下拉刷新的listview</li>
+          <li><a href="https://github.com/FaridSafi/react-native-gifted-listview">react-native-gifted-listview</a> 下拉刷新和上拉加载的ListView</li>
+          <li><a href="https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview">react-native-smart-pull-to-refresh-listview</a> 下拉刷新组件。</li>
+          <li><a href="https://github.com/greatbsky/react-native-pull">react-native-pull</a> 下拉刷新组件。</li>
+          <li><a href="https://github.com/jemise111/react-native-swipe-list-view">react-native-swipe-list-view</a> 滑动删除组件。</li>
+          <li><a href="https://github.com/dancormier/react-native-swipeout">react-native-swipeout</a> iOS样式的划动删除组件。</li>
+          <li><a href="https://github.com/deanmcpherson/react-native-sortable-listview">react-native-sortable-listview</a> 拖拽排序组件。</li>
+          <li><a href="https://github.com/hzzcc/react-native-draggablelist">react-native-draggablelist</a> 拖排序组件。</li>
+          <li><a href="https://github.com/hayeah/react-native-SortableList">react-native-SortableList</a> 拖拽排序组件。</li>
+          <li><a href="https://github.com/aksonov/react-native-tableview">react-native-tableview</a> 桥接了原生的UITableView</li>
+          <li><a href="https://github.com/sghiassy/react-native-sglistview">react-native-sglistview</a> 为了解决React Native中ListView的内存问题</li>
+          <li><a href="https://github.com/baijunjie/react-native-input-scroll-view">react-native-input-scroll-view</a> 完美的TextInput ScrollView</li>
+        </ul>
+        <h3 id="textrich-content"><a aria-hidden="true" tabindex="-1" href="#textrich-content" class="anchor"><span class="icon icon-link"></span></a>Text&#x26;Rich Content</h3>
+        <ul>
+          <li><a href="https://github.com/jsdf/react-native-htmlview">react-native-htmlview</a>：HTML显示组件，渲染HTML text 。</li>
+        </ul>
+        <h3 id="弹框"><a aria-hidden="true" tabindex="-1" href="#弹框" class="anchor"><span class="icon icon-link"></span></a>弹框</h3>
+        <ul>
+          <li><a href="https://github.com/crazycodeboy/react-native-easy-toast">react-native-easy-toast</a>：一款用于React Native上消息提示弹框组件，使用方便，支持定义Toast，支持iOS,Android。</li>
+          <li><a href="https://github.com/brentvatne/react-native-modal">react-native-modal</a>：模态框，作者已经将该组件添加到React Native，所以开发者可以直接使用<a href="https://facebook.github.io/react-native/releases/0.31/docs/modal.html">Modal</a>;</li>
+          <li><a href="https://github.com/jeanregisser/react-native-popover">react-native-popover</a>：一款类似Android popupwindow的弹出框组件。</li>
+        </ul>
+        <h3 id="音视频相机"><a aria-hidden="true" tabindex="-1" href="#音视频相机" class="anchor"><span class="icon icon-link"></span></a>音视频相机</h3>
+        <ul>
+          <li><a href="https://github.com/ideacreation/react-native-barcodescanner">react-native-barcodescanner</a> 二维码扫描组件</li>
+          <li><a href="https://github.com/lwansbrough/react-native-camera">react-native-camera</a> 相机组件</li>
+          <li><a href="https://github.com/marcshilling/react-native-image-picker">react-native-image-picker</a> 可以从相机或者相册选择图片</li>
+          <li><a href="https://github.com/brentvatne/react-native-video">react-native-video</a> 视频组建</li>
+          <li><a href="https://github.com/ivpusic/react-native-image-crop-picker">react-native-image-crop-picker</a> 图片选择器，支持对图片进行切割</li>
+        </ul>
+        <h3 id="图形动画"><a aria-hidden="true" tabindex="-1" href="#图形动画" class="anchor"><span class="icon icon-link"></span></a>图形动画</h3>
+        <ul>
+          <li><a href="https://github.com/ide/react-native-button">react-native-button</a> 按钮，因为react-native没有提供button</li>
+          <li><a href="https://github.com/skv-headless/react-native-scrollable-tab-view">react-native-scrollable-tab-view</a> 滑动的tab视图</li>
+          <li><a href="https://github.com/oblador/react-native-animatable">react-native-animatable</a> 封装了很多动画，强烈推荐</li>
+          <li><a href="https://github.com/oblador/react-native-lightbox">react-native-lightbox</a> 图片全屏预览</li>
+          <li><a href="https://github.com/appintheair/react-native-looped-carousel">react-native-looped-carousel</a> 视图轮播</li>
+          <li><a href="https://github.com/brentvatne/react-native-svgkit">react-native-svgkit</a> 显示SVG格式图片</li>
+          <li><a href="https://github.com/tomauty/react-native-chart">react-native-chart</a> 绘图（折线图，柱状图，扇形图）</li>
+          <li><a href="https://github.com/bgryszko/react-native-circular-progress">react-native-circular-progress</a> 圆形的显示进度的视图</li>
+          <li><a href="https://github.com/ProjectSeptemberInc/gl-react-native">gl-react-native</a> React Native中使用OPENGL来实现复杂的图片和components渲染</li>
+          <li><a href="https://github.com/race604/react-native-viewpager">react-native-viewpager</a> 视图轮播，支持循环滚动，自定义视图。已做性能优化</li>
+          <li><a href="https://github.com/ldn0x7dc/react-native-gallery">react-native-gallery</a> React Native图片组件库，支持常见手势。</li>
+          <li><a href="https://github.com/airbnb/lottie-react-native">lottie-react-native</a> 基于Lactie封装的渲染After Effects动画</li>
+        </ul>
+        <h3 id="数据存储"><a aria-hidden="true" tabindex="-1" href="#数据存储" class="anchor"><span class="icon icon-link"></span></a>数据存储</h3>
+        <ul>
+          <li><a href="https://github.com/andpor/react-native-sqlite-storage">react-native-sqlite-storage</a> iOS／Android上的Sqlite3封装</li>
+          <li><a href="https://github.com/thewei/react-native-store">react-native-store</a> 封装了react-native AsyncStorage</li>
+          <li><a href="https://github.com/realm/realm-js">realm-js</a> 用JS来调用Realm</li>
+        </ul>
+        <h3 id="web相关"><a aria-hidden="true" tabindex="-1" href="#web相关" class="anchor"><span class="icon icon-link"></span></a>Web相关</h3>
+        <ul>
+          <li><a href="https://github.com/naoufal/react-native-safari-view">react-native-safari-view</a> 封装iOS中的 <a href="https://developer.apple.com/videos/wwdc/2015/?id=504">Safari View Controller</a></li>
+          <li><a href="https://github.com/lucasferreira/react-native-webview-android">react-native-webview-android</a> 封装了Android中的Webview</li>
+          <li><a href="https://github.com/oney/react-native-webrtc">react-native-webrtc</a> A WebRTC module for React Native.</li>
+        </ul>
+        <h3 id="系统相关"><a aria-hidden="true" tabindex="-1" href="#系统相关" class="anchor"><span class="icon icon-link"></span></a>系统相关</h3>
+        <ul>
+          <li><a href="https://github.com/rebeccahughes/react-native-device-info">react-native-device-info</a> 获取设备信息</li>
+          <li><a href="https://github.com/ideacreation/react-native-barcodescanner">react-native-barcodescanner</a> 扫码</li>
+          <li><a href="https://github.com/rt2zz/react-native-contacts">react-native-contacts</a> 访问通讯录</li>
+          <li><a href="https://github.com/johanneslumpe/react-native-fs">react-native-fs</a> 访问本地文件系统</li>
+          <li><a href="https://github.com/zo0r/react-native-push-notification">react-native-push-notification</a> 本地和远程通知</li>
+          <li><a href="https://github.com/naoufal/react-native-touch-id">react-native-touch-id</a> 调用TouchID认证</li>
+        </ul>
+        <h3 id="material-design"><a aria-hidden="true" tabindex="-1" href="#material-design" class="anchor"><span class="icon icon-link"></span></a>Material Design</h3>
+        <ul>
+          <li><a href="https://github.com/binggg/mrn">mrn</a>：Material Design组件库。</li>
+          <li><a href="https://github.com/react-native-material-design/react-native-material-design">react-native-material-design</a>：一款用于React Native上的材料设计UI组件库。</li>
+        </ul>
+        <h3 id="工具包"><a aria-hidden="true" tabindex="-1" href="#工具包" class="anchor"><span class="icon icon-link"></span></a>工具包</h3>
+        <ul>
+          <li><a href="https://github.com/tachyons-css/react-native-style-tachyons">react-native-style-tachyons</a> 为React Native提供更好的样式</li>
+          <li><a href="https://github.com/sabeurthabti/react-native-css">react-native-css</a> 使用css样式React-Native组件</li>
+          <li><a href="https://github.com/lelandrichardson/react-native-mock">react-native-mock</a> 一个为ReactNative提供的测试框架</li>
+          <li><a href="https://github.com/lwansbrough/react-native-google-analytics">react-native-google-analytics</a> google统计分析</li>
+          <li><a href="https://github.com/corymsmith/react-native-fabric">react-native-fabric</a> 统计分析，崩溃分析等</li>
+          <li><a href="https://github.com/weflex/react-native-wechat">react-native-wechat</a> 调用微信相关，比如分享，登录，支付</li>
+          <li><a href="https://github.com/skellock/reactotron">reactotron</a> 在终端检测React Dom和Reactive App</li>
+          <li><a href="https://github.com/ReactWindows/react-native-windows">react-native-windows</a> Windows平台的RN工具</li>
+          <li><a href="https://github.com/mjohnston/react-native-webpack-server">react-native-webpack-server</a> 用Webpack来编译React Native App</li>
+        </ul>
+        <h3 id="tablayout"><a aria-hidden="true" tabindex="-1" href="#tablayout" class="anchor"><span class="icon icon-link"></span></a>TabLayout</h3>
+        <ul>
+          <li><a href="https://github.com/skv-headless/react-native-scrollable-tab-view">react-native-scrollable-tab-view</a> 一款用于React Native上TabLayout组件。</li>
+          <li><a href="https://github.com/exponentjs/react-native-tab-navigator">react-native-tab-navigator</a> TabBar切换视图</li>
+          <li><a href="https://github.com/rilyu/teaset">Teaset</a>：一款React Native UI框架，提供20+纯JS组件，可与React Native已有组件无缝组合使用，专注于内容展示与操作控制。</li>
+        </ul>
+        <h2 id="工具"><a aria-hidden="true" tabindex="-1" href="#工具" class="anchor"><span class="icon icon-link"></span></a>工具</h2>
+        <h3 id="ide"><a aria-hidden="true" tabindex="-1" href="#ide" class="anchor"><span class="icon icon-link"></span></a>IDE</h3>
+        <ul>
+          <li><a href="https://nuclide.io/">Nuclide</a>：Nuclide 是 Facebook 推出的一套基于 Atom 的开发工具集。用于开发基于 Hack 的 Web 应用。提供自动完成和 JavaScript 类型检查，内建 React 开发支持，并支持 Facebook 最新的 React Native 库，支持 Facebook 的 Flow JavaScript 类型检查器。</li>
+          <li><a href="https://www.jetbrains.com/webstorm/">WebStorm</a>：JetBrains公司出品的用于前端开发的IDE，WebStorm有着JetBrains公司IDE的优良血统，是前端工程师的一个开发神器。另外，AndroidStudio也是基于JetBrains的IDE，这对于习惯了AndroidStudio的开发者来说，WebStorm无疑是一个最佳的选择。</li>
+        </ul>
+        <h3 id="其他"><a aria-hidden="true" tabindex="-1" href="#其他" class="anchor"><span class="icon icon-link"></span></a>其他</h3>
+        <ul>
+          <li><a href="https://microsoft.github.io/code-push/">CodePush</a>：CodePush 是微软提供的一套用于热更新 React Native 和 Cordova 应用的服务。</li>
+          <li><a href="https://github.com/reactjs/redux/">Redux</a>：用于JavaScript apps上的一款可预见的状态管理框架。</li>
+          <li><a href="https://github.com/mobxjs/mobx">MobX</a>：与 Redux 相比，更轻便、自由的状态管理框架。</li>
+          <li><a href="https://github.com/derzunov/redux-react-native-i18n">redux-react-native-i18n</a> 具有复数形式的i18n解决方案支持Redux上的React Native应用程序</li>
+          <li><a href="http://www.reactsight.com/">React Sight</a> 用于React的可视化工具，支持Fiber，Router（v4）和Redux <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi">Chrome Plug</a> <a href="https://github.com/React-Sight">github</a></li>
+          <li><a href="https://github.com/facebook/react-devtools">React Developer Tools</a> 一个扩展程序，允许检查Chrome和Firefox开发人员工具中的React组件层次结构。 <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi">Chrome Plug</a> <a href="https://github.com/facebook/react-devtools">github</a></li>
+          <li><a href="https://github.com/junedomingo/react-native-rename">react-native-rename</a> : Rename react-native app with just one command</li>
+        </ul>
+        <h2 id="视频"><a aria-hidden="true" tabindex="-1" href="#视频" class="anchor"><span class="icon icon-link"></span></a>视频</h2>
+        <ul>
+          <li><a href="http://coding.imooc.com/class/89.html">React Native项目实战视频</a></li>
+          <li><a href="http://www.imooc.com/learn/808">React Native免费自学视频</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY">React.js Conf 2016</a></li>
+        </ul>
+        <h2 id="新闻讨论"><a aria-hidden="true" tabindex="-1" href="#新闻讨论" class="anchor"><span class="icon icon-link"></span></a>新闻&#x26;讨论</h2>
+        <ul>
+          <li><a href="https://www.zhihu.com/question/33631170">ReactJS 真的好吗？</a></li>
+        </ul>
+        <h2 id="一次学习随处可写"><a aria-hidden="true" tabindex="-1" href="#一次学习随处可写" class="anchor"><span class="icon icon-link"></span></a>一次学习，随处可写</h2>
+        <ul>
+          <li><a href="https://github.com/ptmt/react-native-macos">react-native-macos</a>：使用React Native和Cocoa组建macOS桌面应用。</li>
+          <li><a href="https://github.com/necolas/react-native-web">react-native-web</a>：使用React Native组建Web应用。</li>
+        </ul>
+        <h2 id="一起踩坑"><a aria-hidden="true" tabindex="-1" href="#一起踩坑" class="anchor"><span class="icon icon-link"></span></a>一起踩坑</h2>
+        <ul>
+          <li><a href="http://youthol.top/2016/08/20/%E8%A7%A3%E5%86%B3%EF%BC%9Anext-release-empty-section-headers-will-be-rendered-in-this-release-you-can-user-enableemptysections-flag-to-render-empty-section-headers/">解决：next release empty section headers will be rendesred. In this release you can user ‘enableEmptySections’ flag to render empty section headers.</a></li>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#1-error-no-devicesemulators-found">error: no devices/emulators found</a></li>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#2-react-native-run-android%E6%97%B6%E5%87%BA%E7%8E%B0could-not-download-imagepipelineaar">react-native run-android时出现Could not download imagepipeline.aar</a></li>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#3-undefined-symbols-for-architecture-x86_64-stdterminate">Undefined symbols for architecture x86_64: “std::terminate()”</a></li>
+          <li><a href="http://blog.csdn.net/it_talk/article/details/53787033">方法一：animated <code>useNativeDriver</code> is not supported because the native animated module is missing</a></li>
+          <li><a href="http://www.psd1403.com/usenativedriver-is-not-supported-because-the-native-animated-module-is-missing/">方法二：animated <code>useNativeDriver</code> is not supported because the native animated module is missing</a></li>
+          <li>最终都需要将<code>libRCTAnimation.a</code> 文件导入 <a href="https://github.com/facebook/react-native/issues/11094">react-native issues #11094</a></li>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#5-error-unable-to-find-utility-instruments-not-a-developer-tool-or-in-path">error: unable to find utility "instruments", not a developer tool or in PATH</a></li>
+          <li><a href="https://github.com/jaywcjlove/handbook/blob/master/Android/React-native%20Android%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#6-property-force-not-found-on-object-of-type-uitouch">Property 'force' not found on object of type 'UITouch'</a></li>
+          <li>应用反应缓慢，出现卡顿：
+            <ol>
+              <li>查看是否console日志打印过度造成</li>
+              <li>React Native Debugger放到最前面，浏览器窗口不要放到选项卡里面</li>
+            </ol>
+          </li>
+          <li><a href="http://stackoverflow.com/questions/32577761/com-android-ddmlib-installexception-failed-to-establish-session-react-native">小米 - com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session</a></li>
+          <li><a href="http://stackoverflow.com/questions/5198905/h-file-not-found">*.h file-not-found</a></li>
+          <li><a href="http://www.nowamagic.net/librarys/topics/detail/444">修改安卓app在手机上展示的名称</a></li>
+        </ul>
+        <pre><code class="code-highlight"><span class="code-line line-number" line="1">&#x3C;resources>
+</span><span class="code-line line-number" line="2">    &#x3C;string name="app_name">Your_app_name_to_display&#x3C;/string>
+</span><span class="code-line line-number" line="3">&#x3C;/resources>
+</span></code><input type="hidden" value="<resources>
+    <string name=&#x22;app_name&#x22;>Your_app_name_to_display</string>
+</resources>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <ul>
+          <li><a href="https://segmentfault.com/a/1190000002910311">修改安卓打包时apk的名字：如 <code>wabg.apk</code></a></li>
+        </ul>
+        <pre><code class="code-highlight"><span class="code-line line-number" line="1">android{
+</span><span class="code-line line-number" line="2">    applicationVariants.all { variant ->
+</span><span class="code-line line-number" line="3">        variant.outputs.each { output ->
+</span><span class="code-line line-number" line="4">            def outputFile = output.outputFile
+</span><span class="code-line line-number" line="5">            if (outputFile != null &#x26;&#x26; outputFile.name.endsWith('.apk')) {
+</span><span class="code-line line-number" line="6">                File outputDirectory = new File(outputFile.parent);
+</span><span class="code-line line-number" line="7">                def fileName
+</span><span class="code-line line-number" line="8">		 // 你的apk打包名称
+</span><span class="code-line line-number" line="9">                if (variant.buildType.name == "release") {
+</span><span class="code-line line-number" line="10">                    fileName =  "app_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+</span><span class="code-line line-number" line="11">                } else {
+</span><span class="code-line line-number" line="12">                    fileName = "app_v${defaultConfig.versionName}_${packageTime()}_debug.apk"
+</span><span class="code-line line-number" line="13">                }
+</span><span class="code-line line-number" line="14">                output.outputFile = new File(outputDirectory, fileName)
+</span><span class="code-line line-number" line="15">            }
+</span><span class="code-line line-number" line="16">        }
+</span><span class="code-line line-number" line="17">    }
+</span><span class="code-line line-number" line="18">
+</span><span class="code-line line-number" line="19">}
+</span></code><input type="hidden" value="android{
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null &#x26;&#x26; outputFile.name.endsWith(&#x27;.apk&#x27;)) {
+                File outputDirectory = new File(outputFile.parent);
+                def fileName
+		 // 你的apk打包名称
+                if (variant.buildType.name == &#x22;release&#x22;) {
+                    fileName =  &#x22;app_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk&#x22;
+                } else {
+                    fileName = &#x22;app_v${defaultConfig.versionName}_${packageTime()}_debug.apk&#x22;
+                }
+                output.outputFile = new File(outputDirectory, fileName)
+            }
+        }
+    }
+
+}
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <h2 id="资源下载"><a aria-hidden="true" tabindex="-1" href="#资源下载" class="anchor"><span class="icon icon-link"></span></a>资源下载</h2>
+        <ul>
+          <li><a href="https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/(%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAES6)ES6-in-depth.pdf">(深入浅出ES6)ES6-in-depth</a></li>
+          <li><a href="https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/(JavaScript%20Promise%E8%BF%B7%E4%BD%A0%E4%B9%A6(%E4%B8%AD%E6%96%87%E7%89%88))javascript-promise-book.pdf">JavaScript Promise迷你书(中文版)</a></li>
+          <li><a href="https://raw.githubusercontent.com/crazycodeboy/react-native-awesome/master/resource/download/UIExplorer.zip">React Native API 电子书 for mac@UIExplorer</a></li>
+        </ul>
+      </markdown-style>
+      <nav class="tocs">
+        <aside class="inner toc">
+          <ol class="tocs-list">
+            <li><a href="#react-native-学习资源精选仓库汇聚知识分享精华" class="tocs-link">React Native 学习资源精选仓库(汇聚知识，分享精华)</a></li>
+            <li><a href="#目录" class="tocs-link">目录</a></li>
+            <li><a href="#资源网站" class="tocs-link">资源网站</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#es6es7" class="tocs-link">ES6&#x26;ES7</a></li>
+                <li><a href="#reactjs" class="tocs-link">React.js</a></li>
+                <li><a href="#reactjs相关教程" class="tocs-link">React.js相关教程</a></li>
+                <li><a href="#react-native" class="tocs-link">React Native</a></li>
+              </ol>
+            </li>
+            <li><a href="#教程" class="tocs-link">教程</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#布局相关" class="tocs-link">布局相关</a></li>
+                <li><a href="#开发调试" class="tocs-link">开发调试</a></li>
+                <li><a href="#发布部署" class="tocs-link">发布部署</a></li>
+                <li><a href="#系列教程" class="tocs-link">系列教程</a></li>
+                <li><a href="#项目实践教程" class="tocs-link">项目实践&#x26;教程</a></li>
+              </ol>
+            </li>
+            <li><a href="#开源app" class="tocs-link">开源APP</a></li>
+            <li><a href="#框架" class="tocs-link">框架</a></li>
+            <li><a href="#库" class="tocs-link">库</a></li>
+            <li><a href="#组件" class="tocs-link">组件</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#ui" class="tocs-link">UI</a></li>
+                <li><a href="#navigation" class="tocs-link">Navigation</a></li>
+                <li><a href="#viewpager" class="tocs-link">ViewPager</a></li>
+                <li><a href="#listviewscrollview" class="tocs-link">ListView&#x26;ScrollView</a></li>
+                <li><a href="#textrich-content" class="tocs-link">Text&#x26;Rich Content</a></li>
+                <li><a href="#弹框" class="tocs-link">弹框</a></li>
+                <li><a href="#音视频相机" class="tocs-link">音视频相机</a></li>
+                <li><a href="#图形动画" class="tocs-link">图形动画</a></li>
+                <li><a href="#数据存储" class="tocs-link">数据存储</a></li>
+                <li><a href="#web相关" class="tocs-link">Web相关</a></li>
+                <li><a href="#系统相关" class="tocs-link">系统相关</a></li>
+                <li><a href="#material-design" class="tocs-link">Material Design</a></li>
+                <li><a href="#工具包" class="tocs-link">工具包</a></li>
+                <li><a href="#tablayout" class="tocs-link">TabLayout</a></li>
+              </ol>
+            </li>
+            <li><a href="#工具" class="tocs-link">工具</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#ide" class="tocs-link">IDE</a></li>
+                <li><a href="#其他" class="tocs-link">其他</a></li>
+              </ol>
+            </li>
+            <li><a href="#视频" class="tocs-link">视频</a></li>
+            <li><a href="#新闻讨论" class="tocs-link">新闻&#x26;讨论</a></li>
+            <li><a href="#一次学习随处可写" class="tocs-link">一次学习，随处可写</a></li>
+            <li><a href="#一起踩坑" class="tocs-link">一起踩坑</a></li>
+            <li><a href="#资源下载" class="tocs-link">资源下载</a></li>
+          </ol>
+        </aside>
+      </nav>
+    </div>
+    <script src="js/demo-preview.js?v=1.28.2"></script>
+    <div class="footer warpper">
+      <a href="https://wangchujiang.com/#/app" target="_blank">App</a> •
+      <a href="https://wangchujiang.com/#/projects" target="_blank">Projects</a> •
+      <a href="https://wangchujiang.com/#/sponsor" target="_blank">Sponsor</a> •
+      <a href="https://wangchujiang.com/DevHub/" target="_blank">DevHub</a> •
+      <a href="https://wangchujiang.com/#/app" target="_blank">More Apps</a><br><br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.28.2
+    </div>
+    <script src="js/tocbot.js?v=1.28.2"></script>
+  </body>
+</html>

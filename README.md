@@ -1,14 +1,14 @@
 React Native 学习资源精选仓库(汇聚知识，分享精华)
----
+===
 
 [![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#目录)
 [![](https://jaywcjlove.github.io/sb/lang/english.svg)](https://github.com/jondot/awesome-react-native)
 
 欢迎来到《[React Native Awesome](https://github.com/crazycodeboy/react-native-awesome)》项目的精心整理！本项目是在原项目的基础上进行了fork，并集结了丰富多彩的 React Native 学习资料、工具、组件、开源App、资源下载以及相关新闻等。我们致力于提供精准而不求全面的内容。由于后续无法进行 Pull Requests ，因此我们在此基础上进一步扩充了资源，包括但不限于一同解决问题、音视频相机、图形动画等领域，使项目内容更为丰富🔥。无论你是初学者还是有经验的开发者，我们相信这里能够满足你对React Native 学习的各种需求。一起探索 React Native 的奇妙世界吧！
 
-## 目录
-
 <!--idoc:ignore:start-->
+
+## 目录
 <!-- TOC -->
 
 - [目录](#目录)

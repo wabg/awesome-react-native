@@ -180,6 +180,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [react-native图片上传实例](https://github.com/Xing-He/imagePicker)  
 * [movieapp](https://github.com/junedomingo/movieapp) : Discover Movies and TV shows - React Native
 * [C-Shopping-RN APP](https://github.com/huanghanzhilian/c-shopping-rn) : 一个精美的电商购物应用
+* [Quock](https://github.com/matteocelani/quock) : 基于 React Native 的开源 iPhone 客户端，用于和 Ollama Cloud 模型聊天（需要 ollama.com 账号，推理在云端运行）
 
 ## 框架
 

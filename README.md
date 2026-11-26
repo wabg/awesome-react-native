@@ -241,6 +241,7 @@ React Native 学习资源精选仓库(汇聚知识，分享精华)
 * [react-native-loading-spinner-overlay](https://github.com/niftylettuce/react-native-loading-spinner-overlay) 加载中的提示spinner ,支持iOS/Android
 * [react-native-tabs](https://github.com/aksonov/react-native-tabs) 选项卡可用于底部标签栏以及分段视图
 * [OTF Native UI](https://github.com/otf-kit/sdk) 免费MIT跨平台UI组件库，iOS、Android和Web共用同一套API
+* [react-native-text-avatar](https://github.com/hicay/react-native-text-avatar) 根据姓名生成首字母头像（类似Gmail），支持圆形、圆角、方形、六边形和深色模式，无依赖，支持Expo和Web
 
 ### Navigation  
 
